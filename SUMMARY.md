@@ -18,6 +18,7 @@
 * [Проверка наличия товара](api/availability.md)
 * [Оформление заказа](api/order.md)
 * [Синхронизация статусов заказов](api/order-status-sync.md)
+* [Персональные предложения](api/personal-offers.md)
 
 ## Интеграция эквайринга <a id="payments"></a>
 
