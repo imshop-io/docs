@@ -65,6 +65,7 @@
 * **`model`** - модель и название товара
 * **`typePrefix`** - тип / категория товара \(например, «мобильный телефон», «стиральная машина», «угловой диван»\)
 * **`categoryId`** - идентификатор категории товара, присвоенный магазином. Элемент offer может содержать несколько элементов categoryId, в этом случае каждая из категорий передается в отдельном теге.
+* **`googleProductCategory`** - google product category \(GPC\) taxonomy для товара.
 * **`param`** - все важные характеристики товара — цвет, размер, объем, материал, вес, возраст, пол, и т. д. Элемент offer может содержать несколько элементов param \(один элемент param — одна характеристика\), в этом случае каждая характеристика передается в отдельном теге.
 * **`picture`** - URL-ссылка на картинку товара. Элемент offer может содержать несколько элементов picture, в этом случае каждая из картинок передается в отдельном теге.
 * **`currencyId`** - валюта, в которой указана цена товара: RUR, USD, EUR, UAH, KZT, BYN.
@@ -123,6 +124,7 @@
     <retailPrice>790</retailPrice>
     <categoryId>31</categoryId>
     <categoryId>1956</categoryId>
+    <googleProductCategory>Apparel &amp; Accessories > Clothing > Shirts &amp; Tops</googleProductCategory>
     <picture>https://www.respublica.ru/uploads/00/00/00/1i/50/large_05dcba0a72595c8e.jpg</picture>
     <picture>https://www.respublica.ru/uploads/01/00/00/1i/51/large_64d78b626ef2e2c9.jpg</picture>
     <store>true</store>
