@@ -7,6 +7,7 @@
 * [YML \(фид каталога товаров\)](sync/yml.md)
 * [Фиды наличия товаров](sync/availability-feed.md)
 * [Фиды наличия товаров \(для маркетплейсов\)](sync/availability-feed-for-marketplaces.md)
+* [Передача наличия товара в YML фиде](sync/yml-availability.md)
 
 ## Интеграция \(API / webhooks\) <a id="api"></a>
 
