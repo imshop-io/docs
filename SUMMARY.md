@@ -21,6 +21,11 @@
 * [Синхронизация статусов заказов](api/order-status-sync.md)
 * [Персональные предложения](api/personal-offers.md)
 * [Отзывы на товары](api/reviews.md)
+* [Учётная запись пользователя. Авторизация. История заказов](api/users/README.md)
+  * [Отправка одноразового пароля](api/users/otp.md)
+  * [Авторизация через пару логин + пароль](api/users/login-password.md)
+  * [Получение и редактирование данных учётной записи](api/users/user.md)
+  * [История заказов](api/users/order-history.md)
 
 ## Интеграция эквайринга <a id="payments"></a>
 
