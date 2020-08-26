@@ -91,6 +91,11 @@
   * **`main`** - если **`true`**, то видео будет отображаться в слайдере с фотографиями товара
   * **`title`** - опциональный заголовок видео
   * **`image`** - URL на картинку, которая отображается, пока грузится видео
+* **`file`** - релевантные докумнеты
+  * **`title`** - название
+  * **`size`** \(опционально\) - вес файла для отображения на кнопке в приложении
+  * **`icon`** \(опционально\) - иконка для отображения на кнопке в приложении
+  * **`url`** - ссылка на скачивание
 
 **categories -&gt; category \(аттрибуты\)**
 
@@ -161,6 +166,7 @@
     <badge picture="https://xxxxx/xxxxxx.png" />
     <video main="true" image="https://xxxxxx">https://xxxxxxxxx/xxx.mp4</video>
     <video title="Видео-инструкция" image="https://xxxxxx">https://xxxxxxxxx/xxx.mp4</video>
+    <file title="Руководство пользователя" size="24mb" icon="https://xxxxxxx/x.png" url="https://xxxxxxx/x.ppdf" />
   </offer>
   ...     
 </offers>
