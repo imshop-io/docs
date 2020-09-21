@@ -50,3 +50,7 @@
 * [Создание заявки](dss/new-order.md)
 * [Уведомления об обновлении статуса заявки](dss/webhook-updates.md)
 
+## Инструменты
+
+* [Создание диплинков](instrumenty/sozdanie-diplinkov.md)
+
