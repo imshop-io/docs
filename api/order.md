@@ -10,10 +10,13 @@
 
 ```javascript
 {
+    "device": {
+        "platform": "ios"
+    },
+    "installId": "9e201bab-1ccf-47d1-82e0-90d71ee5fd2c",
     "orders": [{
         "uuid": "2d81f6e5-01cb-44ca-abb0-ded88c1fc982",
         "externalUserId": "XXXXXX",
-        "installId": "9e201bab-1ccf-47d1-82e0-90d71ee5fd2c",
         "groupId": "2d81f6e5-01cb-44ca-abb0-ded88c1fc982",
         "createdOn": "2018-10-15 12:54:18.356089",
         "updatedOn": "2018-10-15 12:54:18.356089",
