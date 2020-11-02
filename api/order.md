@@ -196,53 +196,57 @@
 
 ```javascript
 {
-    "message": "Ваш заказ принят.\nЗаказ будет готов к выдаче сегодня после 14:00",
-    "orders": [
-        "success": true,
-        "id": "12345",
-        "publicId": "ЗКЗ445566",
-        "uuid": "2d81f6e5-01cb-44ca-abb0-ded88c1fc982",
-        "items": {
-            "name": "Тестовый товар 1",
-            "id": "00a03026-412a-54fe-a9df-dcf9325f8618",
-            "privateId": "3464",
-            "configurationId": "3464",
-            "price": 3735,
-            "quantity": 1,
-            "discount": 0,
-            "subtotal": 3735
+  "message": "Ваш заказ принят.\nЗаказ будет готов к выдаче сегодня после 14:00",
+  "orders": [
+    {
+      "success": true,
+      "id": "12345",
+      "publicId": "ЗКЗ445566",
+      "uuid": "2d81f6e5-01cb-44ca-abb0-ded88c1fc982",
+      "items": [
+        {
+          "name": "Тестовый товар 1",
+          "id": "00a03026-412a-54fe-a9df-dcf9325f8618",
+          "privateId": "3464",
+          "configurationId": "3464",
+          "price": 3735,
+          "quantity": 1,
+          "discount": 0,
+          "subtotal": 3735
         },
         {
-            "name": "Тестовый товар 2",
-            "id": "605e0108-dc95-5dab-95a2-7f459da6aade",
-            "privateId": "29117",
-            "configurationId": "29117",
-            "price": 14540,
-            "quantity": 1,
-            "discount": 0,
-            "subtotal": 14540
+          "name": "Тестовый товар 2",
+          "id": "605e0108-dc95-5dab-95a2-7f459da6aade",
+          "privateId": "29117",
+          "configurationId": "29117",
+          "price": 14540,
+          "quantity": 1,
+          "discount": 0,
+          "subtotal": 14540
         },
         {
-            "name": "Тестовый товар 3",
-            "id": "3ccd380e-1f40-5056-8a7a-ef6e8a9582b5",
-            "privateId": "34607",
-            "configurationId": "34607",
-            "price": 5723,
-            "quantity": 2,
-            "discount": 0,
-            "subtotal": 11446
+          "name": "Тестовый товар 3",
+          "id": "3ccd380e-1f40-5056-8a7a-ef6e8a9582b5",
+          "privateId": "34607",
+          "configurationId": "34607",
+          "price": 5723,
+          "quantity": 2,
+          "discount": 0,
+          "subtotal": 11446
         },
         {
-            "name": "Тестовый товар 4",
-            "id": "523036eb-b776-5795-b24b-0f224f2d8b17",
-            "privateId": "6527",
-            "configurationId": "6527",
-            "price": 29336,
-            "quantity": 1,
-            "discount": 0,
-            "subtotal": 29336
+          "name": "Тестовый товар 4",
+          "id": "523036eb-b776-5795-b24b-0f224f2d8b17",
+          "privateId": "6527",
+          "configurationId": "6527",
+          "price": 29336,
+          "quantity": 1,
+          "discount": 0,
+          "subtotal": 29336
         }
-    ]
+      ]
+    }
+  ]
 }
 ```
 
