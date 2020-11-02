@@ -53,3 +53,7 @@
 
 * [Создание диплинков](tools/deeplink-tool.md)
 
+## Примерочные
+
+* [Список примерочных](primerochnye/spisok-primerochnykh.md)
+
