@@ -44,28 +44,25 @@
 ### Формата ответа
 
 * **`success`** - флаг успеха
-* **`data`**
-  * **`rooms`** - список примерочных
-    * **`privateId`** - id/номер примерочной понятный для вашей системы
-    * **`available`** - статус доступности
+* **`data`** - список примерочных 
+  * **`privateId`** - id/номер примерочной понятный для вашей системы
+  * **`available`** - статус доступности
 
 ### Пример ответа
 
 ```javascript
 {
     "success": true,
-    "data": {
-        "rooms": [
-            {
-                "privateId": "Room_1",
-                "available": false
-            },
-            {
-                "privateId": "Room_2",
-                "available": true
-            }
-        ]
-    }
+    "data": [
+        {
+            "privateId": "Room_1",
+            "available": false
+        },
+        {
+            "privateId": "Room_2",
+            "available": true
+        }
+    ]
 }
 ```
 
