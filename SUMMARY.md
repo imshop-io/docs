@@ -55,6 +55,6 @@
 
 ## Примерочные
 
-* [Список примерочных](primerochnye/spisok-primerochnykh.md)
-* [Уведомления об обновлении статуса примерочной](primerochnye/uvedomleniya-ob-obnovlenii-statusa-primerochnoi.md)
+* [Список примерочных](primerochnye/rooms.md)
+* [Уведомления об обновлении статуса примерочной](primerochnye/room-update.md)
 
