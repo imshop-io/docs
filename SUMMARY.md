@@ -53,8 +53,8 @@
 
 * [Создание диплинков](tools/deeplink-tool.md)
 
-## Примерочные
+## Примерочные <a id="fitting"></a>
 
-* [Список примерочных](primerochnye/rooms.md)
-* [Уведомления об обновлении статуса примерочной](primerochnye/room-update.md)
+* [Список примерочных](fitting/rooms.md)
+* [Уведомления об обновлении статуса примерочной](fitting/room-update.md)
 
