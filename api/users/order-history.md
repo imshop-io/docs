@@ -32,6 +32,7 @@
             "createdOn": "1595872396",
             "status": "Доставлен в Махачкалу",
             "price": 1003.33,
+            "trackingUrl": "https://www.cdek.ru/ru/tracking?order_id=1234567890",
             "items": [
                 {
                     "privateId": "6527",
