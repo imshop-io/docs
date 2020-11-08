@@ -50,6 +50,11 @@
 * [Создание заявки](dss/new-order.md)
 * [Уведомления об обновлении статуса заявки](dss/webhook-updates.md)
 
+## Примерочные <a id="fitting"></a>
+
+* [Список примерочных](fitting/rooms.md)
+* [Уведомления об обновлении статуса примерочной](fitting/room-update.md)
+
 ## Инструменты <a id="tools"></a>
 
 * [Создание диплинков](tools/deeplink-tool.md)
