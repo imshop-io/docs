@@ -24,7 +24,6 @@
 
 ### Формата ответа
 
-* **`success`** - флаг успеха
 * **`data`** - список товаров 
   * **`configurationId`** - id товарного предложения, такой же как в фиде товаров
 
@@ -32,7 +31,6 @@
 
 ```javascript
 {
-    "success": true,
     "data": [
         {
             "configurationId": "123"
