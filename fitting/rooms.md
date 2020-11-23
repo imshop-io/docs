@@ -15,7 +15,7 @@
 {% endhint %}
 
 {% hint style="info" %}
-Запросы передаются методом `POST`c типом данных `application/json` в теле запроса 
+Запросы передаются методом `POST`c типом данных `application/json` в теле запроса
 {% endhint %}
 
 ## Запрос
