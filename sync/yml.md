@@ -103,6 +103,7 @@
   * **`textColor`**, атрибут, необязательно - цвет текста в формате \#rrggbb
   * **`bgColor`**, атрибут, необязательно - цвет фона для текстового бейджика в формате `#rrggbb`
   * **`link`**, атрибут, необязательно - ссылка при нажатии на бейджик
+  * **`regionId`** - список виртуальных регионов через запятую, для тарифов с elasticsearch
 * **`video`** - видео товара \(можно передать несколько\). Видео должны быть в формате H.264
   * **`main`** - если **`true`**, то видео будет отображаться в слайдере с фотографиями товара
   * **`title`** - опциональный заголовок видео
@@ -179,6 +180,7 @@
     <rec title="Дополни образ">84629,83466,99998</rec>
     <vat>vat_20</vat>
     <badge textColor="#fff" bgColor="#bba267">Акция -30%</badge>
+    <badge regionId="33,34" textColor="#fff" bgColor="#bba267">Акция -30%</badge>
     <badge picture="https://xxxxx/xxxxxx.png" />
     <video main="true" image="https://xxxxxx">https://xxxxxxxxx/xxx.mp4</video>
     <video title="Видео-инструкция" image="https://xxxxxx">https://xxxxxxxxx/xxx.mp4</video>
