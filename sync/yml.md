@@ -114,6 +114,7 @@
   * **`size`** \(опционально\) - вес файла для отображения на кнопке в приложении
   * **`icon`** \(опционально\) - иконка для отображения на кнопке в приложении
   * **`url`** - ссылка на скачивание
+* **`customSort`** - дополнительная \(custom\) сортировка. необходимо передать тип из **`sortDefinitions`** \(опционально\)
 
 **categories -&gt; category \(атрибуты\)**
 
@@ -123,6 +124,14 @@
 * **`textColor`** - цвет текста \(опционально\)
 * **`backgroundColor`** - цвет фона \(опционально\)
 
+**sortDefinitions -&gt; sortDefinition \(опционально\)**
+
+* **`type`** - тип сортировки \(идентификатор\). Далее используется в тегах **`offer`** для указания сортировки
+* значение - название в интерфейсе выбора сортировки в мобильном приложении
+* **`direction`** - направление сортировки по переданной величине. **`asc`** - по возрастанию, **`desc`** - по убыванию
+* **`main`** - использовать для сортировки товаров на главном экране. Только одна сортировка может быть **`main`** 
+* **`hidden`** - видимость. **`true`** / **`false`** . используется для скрытия из интерфейса сортировки в мобильном приложении. Например чтобы использовать сортировку для главного экрана, но не давать выбрать эту сортировку в каталоге.
+
 {% hint style="info" %}
 Цвет передается в hex формате. например **`FF1122`**
 {% endhint %}
@@ -130,6 +139,11 @@
 ## Пример
 
 ```markup
+<sortDefinitions>
+  <sortDefinition type="home" direction="asc" main="true" hidden="true">Главный экран</sortDefinition>
+  <sortDefinition type="popular" direction="asc">По популярности</sortDefinition>
+  <sortDefinition type="new" direction="desc">Новинки</sortDefinition>
+</sortDefinitions>
 <categories>
   <category id="1" picture="https://www.respublica.ru/uploads/01/00/00/00/01/large_6b02643c12e57081.jpg">Книги</category>
   <category id="1742" parentId="1" picture="https://www.respublica.ru/uploads/00/00/00/01/ce/large_e8eb9fa0f2ec9362.jpg">Бестселлеры</category>
@@ -142,6 +156,9 @@
     <barcode>4627077842287</barcode>
     <barcode>2680983579717</barcode>
     <sort>2</sort>
+    <customSort type="new">1610623217147</customSort>
+    <customSort type="home">18</customSort>
+    <customSort type="popular">12</customSort>
     <url>https://www.respublica.ru/knigi/iskusstvo-dizayn-i-moda/arhitektura/A001617-antonio-gaudi</url>
     <vendor>Caramella</vendor>
     <vendorCode>A001617</vendorCode>
