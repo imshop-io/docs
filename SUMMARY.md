@@ -61,4 +61,5 @@
 ## Инструменты <a id="tools"></a>
 
 * [Создание диплинков](tools/deeplink-tool.md)
+* [Universal ссылки](tools/universal-links.md)
 
