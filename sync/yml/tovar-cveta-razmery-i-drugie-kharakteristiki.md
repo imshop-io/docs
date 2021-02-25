@@ -35,19 +35,19 @@ description: Опции на выбор
     <offers>
       <offer …>
         <variableParam name="Ширина" id="width">
-          <value id="30">30 см.</value>
-          <value id="40">40 см.</value>
-          <value id="50">50 см.</value>
+          <value id="30" name="30 см." />
+          <value id="40" name="40 см." />
+          <value id="50" name="50 см." />
         </variableParam>
         <variableParam name="Высота" id="height">
-          <value id="10">10 см.</value>
-          <value id="20">20 см.</value>
-          <value id="25">25 см.</value>
+          <value id="10" name="10 см." />
+          <value id="20" name="20 см." />
+          <value id="25" name="25 см." />
         </variableParam>
         <variableParam name="Длина" id="length">
-          <value id="60">60 см.</value>
-          <value id="70">70 см.</value>
-          <value id="80">80 см.</value>
+          <value id="60" name="60 см." />
+          <value id="70" name="70 см." />
+          <value id="80" name="80 см." />
         </variableParam>
       </offer>
     </offers>
