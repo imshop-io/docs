@@ -4,7 +4,8 @@
 
 ## Синхронизация каталога <a id="sync"></a>
 
-* [YML \(фид каталога товаров\)](sync/yml.md)
+* [YML \(фид каталога товаров\)](sync/yml/README.md)
+  * [Товар: цвета, размеры и другие характеристики](sync/yml/tovar-cveta-razmery-i-drugie-kharakteristiki.md)
 * [Фиды наличия товаров](sync/availability-feed.md)
 * [Фиды наличия товаров \(для маркетплейсов\)](sync/availability-feed-for-marketplaces.md)
 * [Передача наличия товара в YML фиде](sync/yml-availability.md)

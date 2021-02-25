@@ -104,7 +104,12 @@
               "price": 29336,
               "quantity": 1,
               "discount": 0,
-              "subtotal": 29336
+              "subtotal": 29336,
+              "variableParams": {
+                "width": "30",
+                "height": "10",
+                "length": "60"
+              }
             }
         ]
     }]
@@ -167,6 +172,7 @@
     * `quantity` - количество
     * `discount` - скидка на всю позицию
     * `subtotal` - итого за позицию \(`subtotal` = \(`price` \* `quantity`\) - `discount`\)
+    * `variableParams` - параметры товара, выбранные пользователем \(см. [Товар: цвета, размеры и другие характеристики](../sync/yml/tovar-cveta-razmery-i-drugie-kharakteristiki.md)\)
 
 ## Формат ответа и пример
 
