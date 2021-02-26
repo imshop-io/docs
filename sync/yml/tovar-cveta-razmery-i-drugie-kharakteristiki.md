@@ -35,19 +35,46 @@ description: Опции на выбор
     <offers>
       <offer …>
         <variableParam name="Ширина" id="width">
-          <value id="30" name="30 см." />
-          <value id="40" name="40 см." />
-          <value id="50" name="50 см." />
-        </variableParam>
-        <variableParam name="Высота" id="height">
-          <value id="10" name="10 см." />
-          <value id="20" name="20 см." />
-          <value id="25" name="25 см." />
-        </variableParam>
-        <variableParam name="Длина" id="length">
-          <value id="60" name="60 см." />
-          <value id="70" name="70 см." />
-          <value id="80" name="80 см." />
+          <value id="30" name="30 см."><!-- Ширина 30 см. -->
+            <variableParam name="Высота" id="height">
+              <value id="10" name="10 см."><!-- 30×10×? -->
+                <variableParam name="Длина" id="length">
+                  <value id="60" name="60 см." /><!-- 30×10×60, значение по умолчанию -->
+                  <value id="70" name="70 см." />
+                  <value id="80" name="80 см." />                  
+                </variableParam>
+              </value>
+              <value id="20" name="20 см."><!-- 30×20×? -->
+                <variableParam name="Длина" id="length">
+                  <value id="60" name="60 см." />
+                  <value id="70" name="70 см." /><!-- 30×20×70 -->
+                  <value id="80" name="80 см." />                  
+                </variableParam>
+              </value>
+              <value id="25" name="25 см."><!-- 30×25×? -->
+                <variableParam name="Длина" id="length">
+                  <value id="60" name="60 см." />
+                  <value id="70" name="70 см." />
+                  <value id="80" name="80 см." />                  
+                </variableParam>
+              </value>
+            </variableParam>
+          </value>
+          <value id="40" name="40 см."><!-- Ширина 40 см. -->
+            <variableParam name="Высота" id="height">
+              <value id="10" name="10 см."><!-- 30×10×? -->
+                <variableParam name="Длина" id="length">
+                  <value id="60" name="60 см." />
+                  <value id="70" name="70 см." />
+                </variableParam>
+              </value>
+              <value id="20" name="20 см."><!-- 30×20×? -->
+                <variableParam name="Длина" id="length">
+                  <value id="60" name="60 см." /><!-- 30×20×60, единственное значение -->
+                </variableParam>
+              </value>
+            </variableParam>
+          </value>
         </variableParam>
       </offer>
     </offers>
@@ -67,5 +94,5 @@ description: Опции на выбор
 #### offer → variableParam → value 
 
 * **`id`** — идентификатор, используемый в интеграциях корзины, доставок, оплат, оформления заказа и т.д.
-* отображаемое значение
+* **`name`** — отображаемое значение
 
