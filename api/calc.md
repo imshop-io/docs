@@ -56,12 +56,7 @@ IMSHOP.IO позволяет при помощи webhook подключить у
           "configurationId": "6527",
           "price": 29336,
           "quantity": 1,
-          "subtotal": 29336,
-          "variableParams": {
-            "width": "30",
-            "height": "10",
-            "length": "60"
-          }
+          "subtotal": 29336
         },
         {
           "name": "Кабель питания Baseus",
@@ -96,7 +91,6 @@ IMSHOP.IO позволяет при помощи webhook подключить у
   * **`quantity`** - количество
   * **`subtotal`** - итого по позиции \(`subtotal` = `price` \* `quantity`\)
   * **`appliedDiscounts`** - если предыдущий расчет показал наличие маркетинговой акции, или это - подарок на выбор, то передаем идентификатор акции из прошлого ответа от API
-  * **`variableParams`** - параметры товара, выбранные пользователем \(см. [Товар: цвета, размеры и другие характеристики](../sync/yml/tovar-cveta-razmery-i-drugie-kharakteristiki.md)\)
 * **`externalUserId`** - идентификатор покупателя в системе клиента, если известен
 * **`promocode`** - промокод, введенный покупателем
 * **`installId`** - идентификатор установки приложения
