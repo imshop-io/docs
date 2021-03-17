@@ -27,6 +27,7 @@
   * [Получение и редактирование данных учётной записи](api/users/user.md)
   * [История заказов](api/users/order-history.md)
   * [Избранное \(вишлист\) пользователя \(в разработке\)](api/users/wishlist.md)
+* [Поисковые подсказки](api/search-suggestions.md)
 * [Приложение продавца](api/dss/README.md)
   * [Статистика](api/dss/sales-stats.md)
 
