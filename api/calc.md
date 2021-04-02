@@ -205,46 +205,6 @@ IMSHOP.IO позволяет при помощи webhook подключить у
             "deliveryGroups": ["express"]
         }
     ],
-    "promoGroups": [
-      [
-        {
-          "id": "dd76656711",
-          "name": "Скидка 1000 рублей на Apple Pencil при покупе iPad",
-          "sumsWithBonuses": false
-        }
-      ],
-      [
-        {
-          "id": "dd1218888",
-          "name": "Чехол Baseus в подарок при покупке iPad и Apple Pencil",
-          "sumsWithBonuses": false,
-          "gifts": [
-            {
-              "id": "98765",
-              "quantity": 1
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "id": "dd771099",
-          "name": "Подарок на выбор при заказе от 5000",
-          "sumsWithBonuses": true,
-          "giftOptions": [
-            {
-              "id": "12345",
-              "quantity": 1
-            },
-            {
-              "id": "56789",
-              "quantity": 1
-            }
-          ],
-          "giftOptionsLimit": 1
-        }
-      ]
-    ],
     "bonuses": {
         "canSpend": 1990,
         "willEarn": 1600
