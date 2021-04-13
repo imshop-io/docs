@@ -29,7 +29,7 @@
   * [История заказов](api/users/order-history.md)
   * [Избранное \(вишлист\) пользователя \(в разработке\)](api/users/wishlist.md)
 * [Поисковые подсказки](api/search-suggestions.md)
-* [Формы](api/formy.md)
+* [Формы](api/forms.md)
 * [Приложение продавца](api/dss/README.md)
   * [Статистика](api/dss/sales-stats.md)
 
