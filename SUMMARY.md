@@ -24,6 +24,7 @@
   * [Синхронизация статусов заказов](api/dopolnitelnye-integracii/order-status-sync.md)
   * [Эквайринг через webhook](api/dopolnitelnye-integracii/acquiring-webhook.md)
   * [Поисковые подсказки](api/dopolnitelnye-integracii/search-suggestions.md)
+  * [Поиск. Поисковая выдача](api/dopolnitelnye-integracii/poisk.-poiskovaya-vydacha.md)
   * [Отзывы на товары](api/dopolnitelnye-integracii/reviews.md)
   * [Учётная запись пользователя. Авторизация. История заказов](api/dopolnitelnye-integracii/users/README.md)
     * [Авторизация по номеру телефона + SMS \(предпочтительный способ авторизации\)](api/dopolnitelnye-integracii/users/otp.md)
