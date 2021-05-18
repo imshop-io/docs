@@ -37,7 +37,7 @@
             "inProgress": true,
             "itemsPrice": 29336,
             "usedBonuses": 0,
-            "appliledDiscount": 0,
+            "appliedDiscount": 0,
             "onlinePaymentRequired": false,
             "trackingUrl": "https://www.cdek.ru/ru/tracking?order_id=1234567890",
             "items": [
