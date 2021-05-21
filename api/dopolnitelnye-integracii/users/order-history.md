@@ -16,7 +16,7 @@
 
 ```javascript
 {
-    "userIdentifier": "71234567890"
+    "userIdentifier": "12345"
 }
 ```
 
