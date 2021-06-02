@@ -33,6 +33,7 @@
     * [История заказов](api/dopolnitelnye-integracii/users/order-history.md)
     * [Избранное \(вишлист\) пользователя \(в разработке\)](api/dopolnitelnye-integracii/users/wishlist.md)
   * [Персональные предложения](api/dopolnitelnye-integracii/personal-offers.md)
+  * [Персональные предложения в розничном магазине](api/dopolnitelnye-integracii/personal-offers-instore.md)
   * [Формы](api/dopolnitelnye-integracii/forms.md)
 * [Приложение продавца](api/dss/README.md)
   * [Статистика](api/dss/sales-stats.md)
