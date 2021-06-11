@@ -96,7 +96,7 @@
 * `paymentMethodId` - выбранный покупателем способ оплаты. Берется из ответа [webhook получения способов оплат](https://developer.imshop.io/developers/deliveries-and-payments/payments)
 * `orderUuid` - внутренний номер заказа в IMSHOP.IO
 * `orderId` - внешний номер заказа в системе клиента
-* `applePayData` - криптограмма Apple Pay
+* `applePayData` - криптограмма Apple Pay, в формате base64
 
 #### **Ответ:**
 
