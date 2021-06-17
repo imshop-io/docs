@@ -27,7 +27,7 @@
   * [Поиск. Поисковая выдача](api/dopolnitelnye-integracii/poisk.-poiskovaya-vydacha.md)
   * [Отзывы на товары](api/dopolnitelnye-integracii/reviews.md)
   * [Учётная запись пользователя. Авторизация. История заказов](api/dopolnitelnye-integracii/users/README.md)
-    * [Авторизация по номеру телефона + SMS \(предпочтительный способ авторизации\)](api/dopolnitelnye-integracii/users/otp.md)
+    * [Авторизация по номеру телефона + SMS](api/dopolnitelnye-integracii/users/otp.md)
     * [Получение и редактирование данных учётной записи](api/dopolnitelnye-integracii/users/user.md)
     * [История заказов](api/dopolnitelnye-integracii/users/order-history.md)
     * [Избранное \(вишлист\) пользователя \(в разработке\)](api/dopolnitelnye-integracii/users/wishlist.md)
