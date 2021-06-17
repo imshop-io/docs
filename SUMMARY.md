@@ -28,7 +28,6 @@
   * [Отзывы на товары](api/dopolnitelnye-integracii/reviews.md)
   * [Учётная запись пользователя. Авторизация. История заказов](api/dopolnitelnye-integracii/users/README.md)
     * [Авторизация по номеру телефона + SMS \(предпочтительный способ авторизации\)](api/dopolnitelnye-integracii/users/otp.md)
-    * [Авторизация через пару логин + пароль \(используйте только если авторизация по SMS невозможна\)](api/dopolnitelnye-integracii/users/email-auth.md)
     * [Получение и редактирование данных учётной записи](api/dopolnitelnye-integracii/users/user.md)
     * [История заказов](api/dopolnitelnye-integracii/users/order-history.md)
     * [Избранное \(вишлист\) пользователя \(в разработке\)](api/dopolnitelnye-integracii/users/wishlist.md)
