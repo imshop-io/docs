@@ -144,6 +144,20 @@
         "phone": "71234567890",
         "email": "ivanov@mail.com",
         "bonuses": 10000,
+        "pendingBonusesTitle": "Будет накоплено",
+        "pendingBonuses": 1000,
+        "exressBonusesTitle": "Экспресс-бонусы",
+        "expressBonuses": 500,
+        "loyaltyProgram": {
+            "currentLevelTitle": "Золотой уровень",
+            "progress": 60,
+            "profitDescription": "Cashback до 20% с каждой покупки",
+            "nextLevelDescription": "Совершите покупку на 1000 рублей до уровня Платиновый",
+            "backgroundColor": "gold",
+            "progressBarColor": "black",
+            "progressBarBackroundColor": "white",
+            "textColor": "black"
+        },
         "segments": ["registered", "loyal"],
         "age": 35,
         "gender": "male",
@@ -159,6 +173,19 @@
 * `bonuses` — количество бонусов на счету пользователя \(необязательное поле\)
 * `segments` — сегменты, к которым относится пользователя \(необязательное поле\)
 * `cardNumber` — номер карты лояльности \(необязательное поле\)
+* `pendingBonuses` — будущие бонусы после подтверждения покупки \(необязательное поле\)
+* `pendingBonusesTitle` — кастомное название будущих бонусов \(необязательное поле\)
+* `expressBonuses` — экспресс-бонусы \(необязательное поле\)
+* `expressBonusesTitle` — кастомное название экспресс-бонусов \(необязательное поле\)
+* `loyaltyProgram` — программа лояльности \(необязательное поле\)
+  * `currentLevelTitle` — название текущего уровня лояльности \(необязательное поле\)
+  * `progress` — прогресс уровня лояльности в прогрессбаре, 0 – 100 \(необязательное поле\)
+  * `profitDescription` — описание текущего уровня лояльности \(необязательное поле\)
+  * `nextLevelDescription` — описание следующего уровня лояльности \(необязательное поле\)
+  * `backgroundColor` — фоновый цвет блока программы лояльности \(необязательное поле\)
+  * `progressBarColor` — цвет прогресса в прогрессбаре \(необязательное поле\)
+  * `progressBarBackgroundColor` — фоновый цвет прогрессбара \(необязательное поле\)
+  * `textColor` — цвет текста блока программы лояльности \(необязательное поле\)
 * … и любые другие поля.
 
 {% hint style="info" %}
