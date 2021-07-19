@@ -228,7 +228,8 @@ IMSHOP.IO позволяет при помощи webhook подключить у
             "discount": 1000,
             "quantity": 1,
             "bonuses": { "canSpend": 0 },
-            "deliveryGroups": ["express"]
+            "deliveryGroups": ["express"],
+            "error": "Позиция отсутствует на складе"
         }
     ],
     "bonuses": {
