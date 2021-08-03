@@ -31,6 +31,7 @@
     * [Получение и редактирование данных учётной записи](api/dopolnitelnye-integracii/users/user.md)
     * [История заказов](api/dopolnitelnye-integracii/users/order-history.md)
     * [Избранное \(вишлист\) пользователя \(в разработке\)](api/dopolnitelnye-integracii/users/wishlist.md)
+    * [Объект «Учётная запись пользователя»](api/dopolnitelnye-integracii/users/obekt-uchyotnaya-zapis-polzovatelya.md)
   * [Персональные предложения](api/dopolnitelnye-integracii/personal-offers.md)
   * [Персональные предложения в розничном магазине](api/dopolnitelnye-integracii/personal-offers-instore.md)
   * [Формы](api/dopolnitelnye-integracii/forms.md)
