@@ -58,13 +58,6 @@ IMSHOP.IO передаёт состав корзины, полный адрес,
             "fias_code": "77000000000000000000000",
             "fias_id": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5"
         },
-        "addressComponents": {
-            "city": "Москва",
-            "street": "Тестовая",
-            "house": "1",
-            "building": null,
-            "apt": null,
-        },
         "price": 28065.00,
         "deliveryPrice": 250.00,
         "authorizedBonuses": 300,
