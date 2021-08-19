@@ -23,7 +23,7 @@
 
 ## Авторизация API
 
-При каждом запросе требуется передача API ключа \(как для API так и для webhooks\). Ключе можно передавать либо в поле **`key`** в JSON теле запроса, либо в HTTP заголовке в виде Bearer токена \(например `Authorization: Bearer your_key_goes_here`\)
+При каждом запросе требуется передача API ключа \(как для API так и для webhooks\). Ключb можно передавать либо в поле **`key`** в  headers JSON  запроса, либо в HTTP заголовке в виде Bearer токена \(например `Authorization: Bearer your_key_goes_here`\)
 
 {% hint style="warning" %}
 Все URL обязательно должны поддерживать HTTPS и иметь корректный SSL-сертификат
