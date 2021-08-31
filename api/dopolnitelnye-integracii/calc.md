@@ -27,7 +27,7 @@ IMSHOP.IO позволяет при помощи webhook подключить у
     "fiasCode": "77000000000000000000000",
     "deliveryId": null,
     "paymentId": null,
-    "preferredPickupId": "a1",
+    "deliveryPickupId": "a1",
     "items": [
         {
           "name": "Тестовый товар 1",
