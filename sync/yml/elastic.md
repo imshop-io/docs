@@ -109,3 +109,17 @@
 </offers>
 ```
 
+**Синонимы \(поиск по ключевым словам, которых нет в названии/модели оффера\):**
+
+```markup
+<offers>
+  <offer id="61b06345-c404-11e0-ad14-3c4a926c6ba4" available="true">
+    ...
+    <name>Harry Potter™ Hogwarts™ Crests</name>
+    <synonym>Гарри поттер</synonym>
+    <synonym>Хогвартс</synonym>
+  </offer>
+  ...     
+</offers>
+```
+
