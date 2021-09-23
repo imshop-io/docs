@@ -64,7 +64,7 @@
 ```
 
 * `command` - запрос на создание оплаты \(`create`\)
-* `paymentMethodId` - выбранный покупателем способ оплаты. Берется из ответа [webhook получения способов оплат](https://developer.imshop.io/developers/deliveries-and-payments/payments)
+* `paymentMethodId` - выбранный покупателем способ оплаты. Берется из ответа [webhook получения способов оплат](https://docs.imshop.io/api/oformlenie-zakaza.-dostavki-oplaty/payments)
 * `orderUuid` - внутренний номер заказа в IMSHOP.IO
 * `orderId` - внешний номер заказа в системе клиента
 * `returnUrl` - ссылка на возврат в приложение в случае отмены оплаты
