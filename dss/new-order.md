@@ -160,7 +160,7 @@
         "method": "card",
         "comment": "Последние 4 цифры карты: 1234"
     },
-    "comment": null
+    "comment": "Комментарий"
 }
 ```
 

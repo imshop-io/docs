@@ -36,6 +36,7 @@
   * [Персональные предложения в розничном магазине](api/dopolnitelnye-integracii/personal-offers-instore.md)
   * [История бонусов](api/dopolnitelnye-integracii/bonuses-history.md)
   * [Формы](api/dopolnitelnye-integracii/forms.md)
+  * [Допы \(в  разработке\)](api/dopolnitelnye-integracii/addons.md)
 * [Приложение продавца](api/dss/README.md)
   * [Статистика](api/dss/sales-stats.md)
 
