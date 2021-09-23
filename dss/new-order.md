@@ -139,7 +139,7 @@
             "fiasId": "6cd79dbd-375d-4aaa-ad66-75200adac327"
         }
     },
-    "cart": [
+    "cart": [{
         "configurationId": "63a8dd3e-ce7a-41f9-8572-0f9236234918",
         "quantity": 2,
         "price": 4999,
@@ -149,7 +149,7 @@
         "discountRules": [
             {"id": "1c_first_purchase", "description": "Скидка 1000 руб на первую покупку онлайн"}
         ]
-    ],
+    }],
     "promocode": "FIRST1000",
     "price": 9998,
     "discount": 1000,
