@@ -10,11 +10,13 @@
 
 ### Пример <a id="primer"></a>
 
-```text
-{
+```javascript
+[{
   "configurationId": "12345",
   "selected": ["1_1", "1_2"]
-}
+},
+{...}
+]
 ```
 
 ### Описание формата <a id="opisanie-formata"></a>
@@ -28,8 +30,8 @@
 
 ### Пример <a id="primer-1"></a>
 
-```text
-{  
+```javascript
+[{  
   price: 1999,
 	oldprice: 2999,
 	groups: [
@@ -54,7 +56,9 @@
 			{...}
 		}
 	]
-}
+},
+{...}
+]
 ```
 
 ### Описание формата <a id="opisanie-formata-2"></a>
