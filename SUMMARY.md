@@ -2,15 +2,15 @@
 
 * [Документация](README.md)
 
-## Синхронизация каталога <a id="sync"></a>
+## Синхронизация каталога <a href="sync" id="sync"></a>
 
-* [YML \(фид каталога товаров\)](sync/yml/README.md)
+* [YML (фид каталога товаров)](sync/yml/README.md)
   * [Для тарифов с Elasticsearch](sync/yml/elastic.md)
 * [Фиды наличия товаров](sync/availability-feed.md)
-* [Фиды наличия товаров \(для маркетплейсов\)](sync/availability-feed-for-marketplaces.md)
+* [Фиды наличия товаров (для маркетплейсов)](sync/availability-feed-for-marketplaces.md)
 * [Передача наличия товара в YML фиде](sync/yml-availability.md)
 
-## Интеграция \(API / webhooks\) <a id="api"></a>
+## Интеграция (API / webhooks) <a href="api" id="api"></a>
 
 * [Общая информация о подключении по API](api/general.md)
 * [ОФОРМЛЕНИЕ ЗАКАЗА. Доставки, оплаты](api/oformlenie-zakaza.-dostavki-oplaty/README.md)
@@ -30,17 +30,19 @@
     * [Авторизация по номеру телефона + SMS](api/dopolnitelnye-integracii/users/otp.md)
     * [Получение и редактирование данных учётной записи](api/dopolnitelnye-integracii/users/user.md)
     * [История заказов](api/dopolnitelnye-integracii/users/order-history.md)
-    * [Избранное \(вишлист\) пользователя \(в разработке\)](api/dopolnitelnye-integracii/users/wishlist.md)
+    * [Избранное (вишлист) пользователя (в разработке)](api/dopolnitelnye-integracii/users/wishlist.md)
     * [Объект «Учётная запись пользователя»](api/dopolnitelnye-integracii/users/obekt-uchyotnaya-zapis-polzovatelya.md)
   * [Персональные предложения](api/dopolnitelnye-integracii/personal-offers.md)
   * [Персональные предложения в розничном магазине](api/dopolnitelnye-integracii/personal-offers-instore.md)
   * [История бонусов](api/dopolnitelnye-integracii/bonuses-history.md)
   * [Формы](api/dopolnitelnye-integracii/forms.md)
-  * [Допы \(в  разработке\)](api/dopolnitelnye-integracii/addons.md)
+  * [Допы (в  разработке)](api/dopolnitelnye-integracii/addons.md)
+  * [Баннеры на главном экране (в разработке)](api/dopolnitelnye-integracii/bannery-na-glavnom-ekrane-v-razrabotke/README.md)
+    * [Создание/обновление баннера (в разработке)](api/dopolnitelnye-integracii/bannery-na-glavnom-ekrane-v-razrabotke/sozdanie-obnovlenie-bannera-v-razrabotke.md)
 * [Приложение продавца](api/dss/README.md)
   * [Статистика](api/dss/sales-stats.md)
 
-## Интеграция эквайринга <a id="payments"></a>
+## Интеграция эквайринга <a href="payments" id="payments"></a>
 
 * [Яндекс.Касса](payments/yandex.kassa.md)
 * [Сбербанк](payments/sberbank.md)
@@ -58,18 +60,17 @@
 * [ESolutions](fulfillment/esolutions.md)
 * [LaModa B2B](fulfillment/lamoda-b2b.md)
 
-## Digital Store Solution \(интеграция OMS\) <a id="dss"></a>
+## Digital Store Solution (интеграция OMS) <a href="dss" id="dss"></a>
 
 * [Создание заявки](dss/new-order.md)
 * [Уведомления об обновлении статуса заявки](dss/webhook-updates.md)
 
-## Примерочные <a id="fitting"></a>
+## Примерочные <a href="fitting" id="fitting"></a>
 
 * [Список примерочных](fitting/rooms.md)
 * [Уведомления об обновлении статуса примерочной](fitting/room-update.md)
 
-## Инструменты <a id="tools"></a>
+## Инструменты <a href="tools" id="tools"></a>
 
 * [Создание диплинков](tools/deeplink-tool.md)
 * [Universal ссылки](tools/universal-links.md)
-
