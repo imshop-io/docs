@@ -5,7 +5,14 @@
 {% endhint %}
 
 {% hint style="info" %}
-Для получения URL обратитесь к вашему менеджеру
+Для подключения обратитесь к личному менеджеру в IMSHOP.IO
+
+Вам необходимо получить:
+
+* URL для подключения
+* API ключ
+
+Ключ передается как `Bearer` токен в HTTP заголовке `Authorization`
 {% endhint %}
 
 ## Формат запроса и пример <a href="format-zaprosa-i-primer" id="format-zaprosa-i-primer"></a>

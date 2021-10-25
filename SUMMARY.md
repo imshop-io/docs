@@ -39,6 +39,7 @@
   * [Допы (в  разработке)](api/dopolnitelnye-integracii/addons.md)
   * [Баннеры на главном экране (в разработке)](api/dopolnitelnye-integracii/bannery-na-glavnom-ekrane-v-razrabotke/README.md)
     * [Создание/обновление баннера (в разработке)](api/dopolnitelnye-integracii/bannery-na-glavnom-ekrane-v-razrabotke/sozdanie-obnovlenie-bannera-v-razrabotke.md)
+    * [Удаление баннера](api/dopolnitelnye-integracii/bannery-na-glavnom-ekrane-v-razrabotke/udalenie-bannera.md)
 * [Приложение продавца](api/dss/README.md)
   * [Статистика](api/dss/sales-stats.md)
 
