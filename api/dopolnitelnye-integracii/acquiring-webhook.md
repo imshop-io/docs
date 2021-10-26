@@ -101,11 +101,11 @@
 }
 ```
 
-* `command` - запрос на создание оплаты Google Pay (`androidpay`)
+* `command` - запрос на создание оплаты Apple Pay (`applepay`)
 * `paymentMethodId` - выбранный покупателем способ оплаты. Берется из ответа [webhook получения способов оплат](https://developer.imshop.io/developers/deliveries-and-payments/payments)
 * `orderUuid` - внутренний номер заказа в IMSHOP.IO
 * `orderId` - внешний номер заказа в системе клиента
-* `androidPayData` - криптограмма Android Pay, в формате base64
+* `applePayData` - криптограмма Apple Pay, в формате base64
 
 #### **Ответ:**
 
@@ -136,11 +136,11 @@
 }
 ```
 
-* `command` - запрос на создание оплаты Apple Pay (`applepay`)
+* `command` - запрос на создание оплаты Google Pay (`androidpay`)
 * `paymentMethodId` - выбранный покупателем способ оплаты. Берется из ответа [webhook получения способов оплат](https://developer.imshop.io/developers/deliveries-and-payments/payments)
 * `orderUuid` - внутренний номер заказа в IMSHOP.IO
 * `orderId` - внешний номер заказа в системе клиента
-* `applePayData` - криптограмма Apple Pay, в формате base64
+* `android` - криптограмма Android Pay, в формате base64
 
 **Ответ:**
 
