@@ -34,8 +34,8 @@
   "publishedTo": null,
   "itemId": "012885b7-adf4-5b2b-8cfa-36451cb88e7b",
   "imageAspectRatio": "16:09",
-  "tags": "guide,promo",
-  "segmentIds": "segment1,segment2",
+  "tags": ["guide","promo"],
+  "segmentIds": ["segment1","segment2"],
   "promocode": "promo1",
   "videoUrl": "",
   "content": [
