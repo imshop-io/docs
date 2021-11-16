@@ -30,6 +30,7 @@
     * [Авторизация по номеру телефона + SMS](api/dopolnitelnye-integracii/users/otp.md)
     * [Получение и редактирование данных учётной записи](api/dopolnitelnye-integracii/users/user.md)
     * [История заказов](api/dopolnitelnye-integracii/users/order-history.md)
+    * [Оценка качества обслуживания (в разработке)](api/dopolnitelnye-integracii/users/ocenka-kachestva-obsluzhivaniya-v-razrabotke.md)
     * [Избранное (вишлист) пользователя (в разработке)](api/dopolnitelnye-integracii/users/wishlist.md)
     * [Объект «Учётная запись пользователя»](api/dopolnitelnye-integracii/users/obekt-uchyotnaya-zapis-polzovatelya.md)
   * [Персональные предложения](api/dopolnitelnye-integracii/personal-offers.md)
