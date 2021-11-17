@@ -4,17 +4,17 @@ description: инструмент создания диплинков
 
 # Создание диплинков
 
-На что делаем диплинк (доступные страницы приложения, куда осуществляется переход)
+На что делаем диплинк \(доступные страницы приложения, куда осуществляется переход\)
 
 ## На экран истории
 
-Ведёт на один из блоков контента главной вкладки. Требуется ввод ID, берётся из URL админки, открыв блок на редактирование. Например [https://console.imshop.io/\*\*\*/stories/](https://console.imshop.io/\*\*\*/stories/15)[**15**](https://console.imshop.io/\*\*\*/stories/15)
+Ведёт на один из блоков контента главной вкладки. Требуется ввод ID, берётся из URL админки, открыв блок на редактирование. Например [https://console.imshop.io/\*\*\*/stories/](https://console.imshop.io/***/stories/15)[**15**](https://console.imshop.io/***/stories/15)
 
-![](<../.gitbook/assets/image (5).png>)
+![](../.gitbook/assets/image%20%285%29.png)
 
-**Внимание: **экран истории, помимо фиксированного текстового наполнения, может вести на какой-либо раздел приложения. Для этого необходимо заполнить поле "URL / диплинк"
+**Внимание:** экран истории, помимо фиксированного текстового наполнения, может вести на какой-либо раздел приложения. Для этого необходимо заполнить поле "URL / диплинк"
 
-![](<../.gitbook/assets/image (4).png>)
+![](../.gitbook/assets/image%20%284%29.png)
 
 Кроме того, **элементы истории** также могут содержать диплинк: необходимо нажать "Добавить экран истории", в меню выбрать "Добавить картинку" и при её редактировании заполнить "URL / диплинк"
 
@@ -26,11 +26,11 @@ description: инструмент создания диплинков
 
 ### Параметры:
 
-**Заголовок экрана (текст):** будет отображаться в шапке
+**Заголовок экрана \(текст\):** будет отображаться в шапке
 
 **ID категории из API:** берётся из админки [https://console.imshop.io/account/\*\*\*/categories](https://console.imshop.io/account/lego/categories)
 
-![](https://lh6.googleusercontent.com/wCY5UhYMlmaq5MAkIJFuRAbAEkNzH5yriuk6RkFKVdd9CkDUu8-JrPChEVEG\_zLkJwxej1wpQ1apmWgmxU0gyuARrFXPivL3gJ6XoAgkDFz3UDlN\_Tw7Jgqmb9OZxnmABOxQayld)
+![](https://lh6.googleusercontent.com/wCY5UhYMlmaq5MAkIJFuRAbAEkNzH5yriuk6RkFKVdd9CkDUu8-JrPChEVEG_zLkJwxej1wpQ1apmWgmxU0gyuARrFXPivL3gJ6XoAgkDFz3UDlN_Tw7Jgqmb9OZxnmABOxQayld)
 
 ## На экран с категориями **и** товарами, согласно фиду
 
@@ -38,7 +38,7 @@ description: инструмент создания диплинков
 
 Те же, что выше
 
-## На экран с товарами (без категорий), согласно фиду
+## На экран с товарами \(без категорий\), согласно фиду
 
 ### Параметры:
 
@@ -48,11 +48,11 @@ description: инструмент создания диплинков
 
 ### Параметры:
 
-**ID товара из фида:** берётся из админки [https://console.imshop.io/account/\*\*\*/items](https://console.imshop.io/account/\*\*\*/items)
+**ID товара из фида:** берётся из админки [https://console.imshop.io/account/\*\*\*/items](https://console.imshop.io/account/***/items)
 
-![](https://lh4.googleusercontent.com/xLtB4zKI2909\_BfmQng1PDbULKgUDjupkDwx8EyLNOfQs8SQYHjo2o8rceifmqXxq-ZY9ghUbs6i4gghPhYL7FC9fxOo\_qtPIaWo6VZL-dOVJDJM-d1\_h2LHpi34Cf8k38H6ESdS)
+![](https://lh4.googleusercontent.com/xLtB4zKI2909_BfmQng1PDbULKgUDjupkDwx8EyLNOfQs8SQYHjo2o8rceifmqXxq-ZY9ghUbs6i4gghPhYL7FC9fxOo_qtPIaWo6VZL-dOVJDJM-d1_h2LHpi34Cf8k38H6ESdS)
 
-## Умный диплинк из главного экрана на выборку товаров, с учетом фильтров, сортировок и поиска (для главной)
+## Умный диплинк из главного экрана на выборку товаров, с учетом фильтров, сортировок и поиска \(для главной\)
 
 ### Параметры:
 
@@ -60,9 +60,9 @@ description: инструмент создания диплинков
 
 **Название подборки:** будет отображаться в шапке
 
-**Поисковый запрос** (не обязательно): строка для поиска по тексту, например, название товара
+**Поисковый запрос** \(не обязательно\): строка для поиска по тексту, например, название товара
 
-**Применить фильтры по параметрам из фида:** нажать \[+], можно задать фильтрацию по нескольким параметрам товара одновременно.
+**Применить фильтры по параметрам из фида:** нажать \[+\], можно задать фильтрацию по нескольким параметрам товара одновременно.
 
 Системные фильтры, их наличие не зависит от данных, переданных в фиде:
 
@@ -78,14 +78,15 @@ description: инструмент создания диплинков
 
 Примеры:
 
-• **f\_Цвет** значение **Жёлтый** (если необходимо отобрать по нескольким значениям, требуется добавить ещё одно значение рядом)
+• **f\_Цвет** значение **Жёлтый** \(если необходимо отобрать по нескольким значениям, требуется добавить ещё одно значение рядом\)
 
-![](https://lh4.googleusercontent.com/VT3p98m6jzD1k9f9BrCwyE8jO3igvA\_BEN4izGl\_euXEw\_CQ2ocD-NzfSY8dTO-QmKCLONUN9\_J7Roq4BKcgtubnKcbG-LBekQZds4V9VmNYMKk4FRaHUz84BvXkf0iUeZ-mC-hf)
+![](https://lh4.googleusercontent.com/VT3p98m6jzD1k9f9BrCwyE8jO3igvA_BEN4izGl_euXEw_CQ2ocD-NzfSY8dTO-QmKCLONUN9_J7Roq4BKcgtubnKcbG-LBekQZds4V9VmNYMKk4FRaHUz84BvXkf0iUeZ-mC-hf)
 
 • **f\_Пол** значение **Женский**
 
-## Умный диплинк из каталога на выборку товаров, с учетом фильтров, сортировок и поиска (для Push-уведомлений)
+## Умный диплинк из каталога на выборку товаров, с учетом фильтров, сортировок и поиска \(для Push-уведомлений\)
 
 ### Параметры:
 
 Те же, что выше
+
