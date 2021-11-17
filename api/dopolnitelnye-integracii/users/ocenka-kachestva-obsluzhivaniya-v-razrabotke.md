@@ -18,8 +18,6 @@
 
 ## ![](<../../../.gitbook/assets/image (6).png>)
 
-Форма в конце расширенной истории заказа
-
 ## Запрос
 
 `APP SERVER → INFRASTRUCTURE`
