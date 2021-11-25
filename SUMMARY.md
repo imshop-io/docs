@@ -38,7 +38,7 @@
   * [История бонусов](api/dopolnitelnye-integracii/bonuses-history.md)
   * [Формы](api/dopolnitelnye-integracii/forms.md)
   * [Допы (в  разработке)](api/dopolnitelnye-integracii/addons.md)
-  * [Информация о ПВЗ (в разработке)](api/dopolnitelnye-integracii/informaciya-o-pvz-v-razrabotke.md)
+  * [Информация о ПВЗ](api/dopolnitelnye-integracii/informaciya-o-pvz.md)
   * [Баннеры на главном экране (в разработке)](api/dopolnitelnye-integracii/bannery-na-glavnom-ekrane-v-razrabotke/README.md)
     * [Создание/обновление баннера (в разработке)](api/dopolnitelnye-integracii/bannery-na-glavnom-ekrane-v-razrabotke/sozdanie-obnovlenie-bannera-v-razrabotke.md)
     * [Удаление баннера](api/dopolnitelnye-integracii/bannery-na-glavnom-ekrane-v-razrabotke/udalenie-bannera.md)
