@@ -14,7 +14,7 @@
 
 ### Формат запроса
 
-* `id` - идентификатор товара в системе продавца \(на сайте / в CRM итд\)
+* `id` - идентификатор товара в системе продавца (на сайте / в CRM итд)
 
 ```
 {
@@ -28,10 +28,10 @@
 * `reviews` - список отзывов
   * `text` - текст отзыва, обязательно наличие либо текста либо картинок
   * `author` - автор, обязательное поле
-  * `date` - дата отзыва, в формате YYYY-MM-DDTHH:MM, обязательное поле по гринвичу \(UTC / GMT +0\)
-  * `title` - \(опционально\), заголовок отзывы
-  * `rating` - \(опционально\), рейтинг отзыва по шкале от 1 до 5
-  * `pictures` \(опционально\) - массив картинок отзыва
+  * `date` - дата отзыва, в формате YYYY-MM-DDTHH:MM, обязательное поле по гринвичу (UTC / GMT +0)
+  * `title` - (опционально), заголовок отзывы
+  * `rating` - (опционально), рейтинг отзыва по шкале от 1 до 5
+  * `pictures` (опционально) - массив картинок отзыва
     * `src` - веб-ссылка на картинку
 
 #### Пример ответа
@@ -41,16 +41,17 @@
     "rating": "1.7",
     "reviews": [
       {
-        "author": 'Jake',
-        "date": '2020-04-25T08:30',
-        "title": 'Lorem ipsum',
-        "text": 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        "author": "Jake",
+        "date": "2020-04-25T08:30",
+        "title": "Lorem ipsum",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "pictures": [
-          { "src": 'https://pmdn.sokolov.io/pics/F7/A5/84C379E76E8EE97A3B23EBE39DE4.jpg' },
+          { "src": "https://pmdn.sokolov.io/pics/F7/A5/84C379E76E8EE97A3B23EBE39DE4.jpg" },
         ],
         "rating": 3
       }
     ]
+}
 }
 ```
 
@@ -72,10 +73,10 @@
 
 ```javascript
 {
-    "item": '67128736',
-    "userId": '1122334455',
-    "name": 'Иван Иванов',
-    "comment": 'В реальности кажется более вместительным, чем на фото. Отличный материал. За такую цену - просто подарок.',
+    "item": "67128736",
+    "userId": "1122334455",
+    "name": "Иван Иванов",
+    "comment": "В реальности кажется более вместительным, чем на фото. Отличный материал. За такую цену - просто подарок.",
     "rating": 5,
     "pros": "Цена. Надо брать",
     "cons": "После установки первые несколько часов сильно шумел"
@@ -93,4 +94,3 @@
     "success": true
 }
 ```
-
