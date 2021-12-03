@@ -45,7 +45,6 @@ IMSHOP.IO позволяет при помощи webhook подключить п
       "lat": 55.7905543,
       "lon": 37.5319846,
       "online": false,
-      "public": true,
       "subway": "ЦСКА",
       "mall": "Авиапарк"
     }
