@@ -2,7 +2,7 @@
 
 * [Документация](README.md)
 
-## Синхронизация каталога <a href="sync" id="sync"></a>
+## Синхронизация каталога <a href="#sync" id="sync"></a>
 
 * [YML (фид каталога товаров)](sync/yml/README.md)
   * [Для тарифов с Elasticsearch](sync/yml/elastic.md)
@@ -10,7 +10,7 @@
 * [Фиды наличия товаров (для маркетплейсов)](sync/availability-feed-for-marketplaces.md)
 * [Передача наличия товара в YML фиде](sync/yml-availability.md)
 
-## Интеграция (API / webhooks) <a href="api" id="api"></a>
+## Интеграция (API / webhooks) <a href="#api" id="api"></a>
 
 * [Общая информация о подключении по API](api/general.md)
 * [ОФОРМЛЕНИЕ ЗАКАЗА. Доставки, оплаты](api/oformlenie-zakaza.-dostavki-oplaty/README.md)
@@ -39,13 +39,14 @@
   * [Формы](api/dopolnitelnye-integracii/forms.md)
   * [Допы (в  разработке)](api/dopolnitelnye-integracii/addons.md)
   * [Информация о ПВЗ](api/dopolnitelnye-integracii/informaciya-o-pvz-v-razrabotke.md)
+  * [Лайки/дизлайки отзывов (в разработке)](api/dopolnitelnye-integracii/laiki-dizlaiki-otzyvov-v-razrabotke.md)
   * [Баннеры на главном экране (в разработке)](api/dopolnitelnye-integracii/bannery-na-glavnom-ekrane-v-razrabotke/README.md)
     * [Создание/обновление баннера (в разработке)](api/dopolnitelnye-integracii/bannery-na-glavnom-ekrane-v-razrabotke/sozdanie-obnovlenie-bannera-v-razrabotke.md)
     * [Удаление баннера](api/dopolnitelnye-integracii/bannery-na-glavnom-ekrane-v-razrabotke/udalenie-bannera.md)
 * [Приложение продавца](api/dss/README.md)
   * [Статистика](api/dss/sales-stats.md)
 
-## Интеграция эквайринга <a href="payments" id="payments"></a>
+## Интеграция эквайринга <a href="#payments" id="payments"></a>
 
 * [Яндекс.Касса](payments/yandex.kassa.md)
 * [Сбербанк](payments/sberbank.md)
@@ -63,17 +64,17 @@
 * [ESolutions](fulfillment/esolutions.md)
 * [LaModa B2B](fulfillment/lamoda-b2b.md)
 
-## Digital Store Solution (интеграция OMS) <a href="dss" id="dss"></a>
+## Digital Store Solution (интеграция OMS) <a href="#dss" id="dss"></a>
 
 * [Создание заявки](dss/new-order.md)
 * [Уведомления об обновлении статуса заявки](dss/webhook-updates.md)
 
-## Примерочные <a href="fitting" id="fitting"></a>
+## Примерочные <a href="#fitting" id="fitting"></a>
 
 * [Список примерочных](fitting/rooms.md)
 * [Уведомления об обновлении статуса примерочной](fitting/room-update.md)
 
-## Инструменты <a href="tools" id="tools"></a>
+## Инструменты <a href="#tools" id="tools"></a>
 
 * [Создание диплинков](tools/deeplink-tool.md)
 * [Universal ссылки](tools/universal-links.md)
