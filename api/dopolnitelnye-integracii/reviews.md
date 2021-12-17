@@ -44,6 +44,9 @@
     "rating": "1.7",
     "reviews": [
       {
+        "id": "123",
+        "positiveReviews": 10,
+        "negativeReviews": 2,
         "author": "Jake",
         "date": "2020-04-25T08:30",
         "title": "Lorem ipsum",
