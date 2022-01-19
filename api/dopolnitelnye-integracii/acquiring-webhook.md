@@ -139,7 +139,7 @@
 * `command` - запрос на создание оплаты Google Pay (`androidpay`)
 * `paymentMethodId` - выбранный покупателем способ оплаты. Берется из ответа [webhook получения способов оплат](https://developer.imshop.io/developers/deliveries-and-payments/payments)
 * `orderUuid` - внутренний номер заказа в IMSHOP.IO
-* `orderId` - внешний номер заказа в системе клиента
+* `orderId` - публичный номер заказа в системе клиента
 * `android` - криптограмма Android Pay, в формате base64
 
 **Ответ:**
