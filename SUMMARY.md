@@ -35,6 +35,7 @@
     * [Объект «Учётная запись пользователя»](api/dopolnitelnye-integracii/users/obekt-uchyotnaya-zapis-polzovatelya.md)
   * [Персональные предложения](api/dopolnitelnye-integracii/personal-offers.md)
   * [Персональные предложения в розничном магазине](api/dopolnitelnye-integracii/personal-offers-instore.md)
+  * [Рейтинг качества обслуживания](api/dopolnitelnye-integracii/reiting-kachestva-obsluzhivaniya.md)
   * [История бонусов](api/dopolnitelnye-integracii/bonuses-history.md)
   * [Формы](api/dopolnitelnye-integracii/forms.md)
   * [Допы (в  разработке)](api/dopolnitelnye-integracii/addons.md)
