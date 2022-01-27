@@ -22,6 +22,7 @@
   * [Проверка наличия товара](api/dopolnitelnye-integracii/availability.md)
   * [Расчет корзины, скидок, баллов](api/dopolnitelnye-integracii/calc.md)
   * [Синхронизация статусов заказов](api/dopolnitelnye-integracii/order-status-sync.md)
+  * [Отправка уведомлений пользователям](api/dopolnitelnye-integracii/otpravka-uvedomlenii-polzovatelyam.md)
   * [Эквайринг через webhook](api/dopolnitelnye-integracii/acquiring-webhook.md)
   * [Поисковые подсказки](api/dopolnitelnye-integracii/search-suggestions.md)
   * [Поиск. Поисковая выдача](api/dopolnitelnye-integracii/poisk.-poiskovaya-vydacha.md)
