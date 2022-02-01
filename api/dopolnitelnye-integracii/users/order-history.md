@@ -110,6 +110,7 @@
 * `publicPaymentDetails` - детали оплаты
   * `paid` - true если заказ оплачен
   * `paymentComment` - коментарий к платежу
+  * `receiptUrl` - ссылка на чек
 * `ratingRequired` - true/false в зависимости нужно ли собрать оценку с пользователя
 * `rating` - Значение оценки обслуживания пользователя от 1 до 5 с [хука оценки качества обслуживания](ocenka-kachestva-obsluzhivaniya-v-razrabotke.md)
 * `ratingComment` - Сохраненный комментарий пользователя с [хука оценки качества обслуживания](ocenka-kachestva-obsluzhivaniya-v-razrabotke.md)
