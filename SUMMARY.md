@@ -42,6 +42,7 @@
   * [Допы (в  разработке)](api/dopolnitelnye-integracii/addons.md)
   * [Информация о ПВЗ](api/dopolnitelnye-integracii/informaciya-o-pvz-v-razrabotke.md)
   * [Лайки/дизлайки отзывов (в разработке)](api/dopolnitelnye-integracii/laiki-dizlaiki-otzyvov-v-razrabotke.md)
+  * [Рекомендация товаров](api/dopolnitelnye-integracii/rekomendaciya-tovarov.md)
   * [Баннеры на главном экране (в разработке)](api/dopolnitelnye-integracii/bannery-na-glavnom-ekrane-v-razrabotke/README.md)
     * [Создание/обновление баннера (в разработке)](api/dopolnitelnye-integracii/bannery-na-glavnom-ekrane-v-razrabotke/sozdanie-obnovlenie-bannera-v-razrabotke.md)
     * [Удаление баннера](api/dopolnitelnye-integracii/bannery-na-glavnom-ekrane-v-razrabotke/udalenie-bannera.md)
