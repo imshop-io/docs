@@ -12,12 +12,12 @@
 * URL для подключения
 * API ключ
 
-Ключ передается как `Bearer` токен в HTTP заголовке `Authorization`
+Ключ передается как  api-key токен в HTTP заголовке
 {% endhint %}
 
-## Формат запроса и пример <a href="format-zaprosa-i-primer" id="format-zaprosa-i-primer"></a>
+## Формат запроса и пример <a href="#format-zaprosa-i-primer" id="format-zaprosa-i-primer"></a>
 
-### Пример <a href="primer" id="primer"></a>
+### Пример <a href="#primer" id="primer"></a>
 
 ```javascript
 {
@@ -50,7 +50,7 @@
 }
 ```
 
-### Описание формата <a href="opisanie-formata" id="opisanie-formata"></a>
+### Описание формата <a href="#opisanie-formata" id="opisanie-formata"></a>
 
 * **`id`** - ид баннера в системе имшоп, необязательно при создании баннера, обязательно или privateId или id при обновлении
 * **`privateId`** - ид баннера в системе клиента, необязательно при создании баннера, обязательно или privateId или id при обновлении
@@ -193,9 +193,9 @@
 * **`url`** - веб-ссылка/deeplink
 * **`isFixed`** - кнопка фиксируется снизу экрана
 
-## Формат ответа и пример <a href="format-otveta-i-primer" id="format-otveta-i-primer"></a>
+## Формат ответа и пример <a href="#format-otveta-i-primer" id="format-otveta-i-primer"></a>
 
-### Пример <a href="primer-1" id="primer-1"></a>
+### Пример <a href="#primer-1" id="primer-1"></a>
 
 ```javascript
 {  
@@ -205,7 +205,7 @@
 }
 ```
 
-### Описание формата <a href="opisanie-formata-2" id="opisanie-formata-2"></a>
+### Описание формата <a href="#opisanie-formata-2" id="opisanie-formata-2"></a>
 
 * **`success`** - флаг успеха операции
 * **`id`** - ид на стороне имшоп
