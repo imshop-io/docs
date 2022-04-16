@@ -95,7 +95,7 @@
 
 ```javascript
 {  
-  "type": "subheader",
+  "type": "section_header",
   "settings": {
     "text": "Subheader"
   }
