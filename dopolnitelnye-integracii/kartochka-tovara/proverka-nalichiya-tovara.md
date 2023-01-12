@@ -73,6 +73,7 @@ IMSHOP.IO позволяет при помощи webhook подключить п
   "availability": [{ 
     "id": "12345", 
     "warehouseId": "1", 
+    "remark": "Товар продается по цене розничного магазина Сочи",
     "quantity": 10
     
   }]
