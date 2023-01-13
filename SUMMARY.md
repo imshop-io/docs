@@ -92,6 +92,10 @@
 
 * [Разработка нативных модулей](instrumenty/razrabotka-nativnykh-modulei.md)
 * [Universal ссылки](instrumenty/universal-ssylki.md)
+* [Google Analytics](instrumenty/google-analytics/README.md)
+  * [Построение воронок](instrumenty/google-analytics/postroenie-voronok.md)
+  * [Пути пользователя](instrumenty/google-analytics/puti-polzovatelya.md)
+  * [Ивенты и расшифровка](instrumenty/google-analytics/iventy-i-rasshifrovka.md)
 * [One Signal](instrumenty/one-signal.md)
 * [Console IMSHOP](instrumenty/console-imshop/README.md)
   * [Создание баннера](instrumenty/console-imshop/sozdanie-bannera/README.md)
