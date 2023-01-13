@@ -100,6 +100,8 @@
 * **`rating`** - рейтинг товара для отображения на карточке товара сверху (не путать с [хуком отзывов на товары](../../dopolnitelnye-integracii/kartochka-tovara/otzyvy-na-tovary.md)).
 * **`reviews_count`** - количество отзывов для отображения в ячейке и на карточке товара сверху (не путать с [хуком отзывов на товары](../../dopolnitelnye-integracii/kartochka-tovara/otzyvy-na-tovary.md)).
 * **`sizeGridPageUrl`** -  URL-ссылка на HTML с таблицей размеров (отобразится, если не задан в атрибутах sizeGridImage и нет sizeGridImgUrl в settings)
+* **`othercolors`**- блок товаров "еще в другом цвете", перечислить group Id товаров с альтернативными цветами. **Не используется вместе с parentVendorCode.**
+* **`parentVendorCode`** - по данному параметру объединяем товары для перелинковки (позволяет добавлять переключаемые параметры на карточку товара) **не должен пересекаться с group id, не используется вместе с othercolors**
 
 ```xml
 <offer id="998822" available="true" group_id="222222">
