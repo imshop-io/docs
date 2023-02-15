@@ -78,7 +78,7 @@
   * [Создание заявки](digital-store-solution-prilozhenie-prodavca/integracii/sozdanie-zayavki.md)
   * [Статистика](digital-store-solution-prilozhenie-prodavca/integracii/statistika.md)
   * [Персональные предложения в розничном магазине](digital-store-solution-prilozhenie-prodavca/integracii/personalnye-predlozheniya-v-roznichnom-magazine.md)
-  * [Уведомления об обновлении статуса заявки](digital-store-solution-prilozhenie-prodavca/integracii/uvedomleniya-ob-obnovlenii-statusa-zayavki.md)
+  * [Изменение статуса заявки](digital-store-solution-prilozhenie-prodavca/integracii/izmenenie-statusa-zayavki.md)
   * [История заказов](digital-store-solution-prilozhenie-prodavca/integracii/istoriya-zakazov.md)
   * [Доставки](digital-store-solution-prilozhenie-prodavca/integracii/dostavki.md)
   * [Расчет корзины, скидок, баллов](digital-store-solution-prilozhenie-prodavca/integracii/raschet-korziny-skidok-ballov.md)
