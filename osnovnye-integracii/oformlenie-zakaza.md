@@ -47,6 +47,10 @@ IMSHOP.IO передаёт состав корзины, полный адрес,
         "name": "Дмитрий",
         "phone": "+7 (999) 999-9999",
         "email": "some@mail.com",
+        "anotherRecipientData": {
+            "name": "Галина",
+            "phone": "+7 (999) 999-9999"
+        },
         "country": "RU",
         "city": "Москва",
         "address": "ул Тестовая, д 1",
