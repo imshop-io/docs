@@ -26,7 +26,7 @@
 }
 ```
 
-* **`items`** - список ID товаров из фида
+* **`items`** - список ID товаров из фида (если в фиде есть group\_id для этого товара, то берется group\_id)
 
 <figure><img src="../../.gitbook/assets/Simulator Screen Shot - iPhone 14 - 2022-12-20 at 10.34.26.png" alt=""><figcaption><p><strong>В массиве Items отдан один товар</strong></p></figcaption></figure>
 
