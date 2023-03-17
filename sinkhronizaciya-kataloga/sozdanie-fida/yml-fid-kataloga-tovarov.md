@@ -78,6 +78,7 @@
   * **collapsibleDescription -> section (дочерние элементы)**
     * **section (атрибуты)**
       * **`lang` ** – локализация (необязательно)
+      * **`expanded` ** – укажите expanded="true", чтобы секция была развернута по умолчанию. Опционально.
     * **`title`** – заголовок
     * **`text`** – описание (поддерживается markdown)
 
@@ -88,7 +89,7 @@
     <title>Title</title>
     <text>Text</text>
   </section>
-  <section lang="ru">
+  <section lang="ru" expanded="true">
     <title>TitleRU1</title>
     <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis congue metus, non vestibulum dui. Vivamus cursus orci vel sem tristique, a dictum quam aliquam.</text>
   </section>
