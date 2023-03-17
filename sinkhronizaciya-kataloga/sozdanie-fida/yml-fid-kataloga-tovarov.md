@@ -74,6 +74,44 @@
 * **`listPrice`** - необязательно, справочные цены, если нужно показать несколько цен, только для отображения, в расчетах не используются.
   * **`title`** - атрибут, текстовое описание цены.
 * **`description`** - описание предложения.
+* **`collapsibleDescription`** - описание со сворачивающимися блоками
+  * **collapsibleDescription -> section (дочерние элементы)**
+    * **section (атрибуты)**
+      * **`lang` ** – локализация (необязательно)
+    * **`title`** – заголовок
+    * **`text`** – описание (поддерживается markdown)
+
+{% code overflow="wrap" %}
+```xml
+<collapsibleDescription>
+  <section>
+    <title>Title</title>
+    <text>Text</text>
+  </section>
+  <section lang="ru">
+    <title>TitleRU1</title>
+    <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis congue metus, non vestibulum dui. Vivamus cursus orci vel sem tristique, a dictum quam aliquam.</text>
+  </section>
+  <section lang="ru">
+    <title>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis congue metus, non vestibulum dui. Vivamus cursus orci vel sem tristique, a dictum quam aliquam.</title>
+    <text>* Первый пункт
+    
+    * Второй пункт
+     
+    * Третий пункт</text>
+  </section>
+  <section lang="ru">
+    <title>TitleRU3</title>
+    <text>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis congue metus, non vestibulum dui. Vivamus cursus orci vel sem tristique, a dictum quam aliquam.</text>
+  </section>
+  <section lang="en">
+    <title>TitleEN</title>
+    <text>TextEN</text>
+  </section>
+</collapsibleDescription>
+```
+{% endcode %}
+
 * **`rec`** - идентификаторы товаров для блока рекомендаций через запятую. Возможно передавать несколько блоков с подборками товаров, например "Похожие товары", "С этим покупают", "Дополни образ" итд. Для этого следует передать несколько тегов **`rec`** с атрибутом **`title`** (см пример).&#x20;
 
 {% hint style="info" %}
