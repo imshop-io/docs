@@ -34,6 +34,7 @@
     * [Подтверждение отправки форм по СМС](dopolnitelnye-integracii/vitrina-poisk/podtverzhdenie-otpravki-form-po-sms.md)
     * [Регистрация маркировки](dopolnitelnye-integracii/vitrina-poisk/registraciya-markirovki.md)
     * [Товары в прямом эфире](dopolnitelnye-integracii/vitrina-poisk/tovary-v-pryamom-efire.md)
+    * [Определение адреса на карте](dopolnitelnye-integracii/vitrina-poisk/opredelenie-adresa-na-karte.md)
   * [Карточка товара](dopolnitelnye-integracii/kartochka-tovara/README.md)
     * [Проверка наличия товара](dopolnitelnye-integracii/kartochka-tovara/proverka-nalichiya-tovara.md)
     * [Отзывы на товары](dopolnitelnye-integracii/kartochka-tovara/otzyvy-na-tovary.md)
