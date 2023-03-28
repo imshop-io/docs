@@ -47,7 +47,10 @@
             "progress": 60,
             "progressBarBackroundColor": "white",
             "progressBarColor": "black",
-            "textColor": "black"
+            "textColor": "black",
+            "purchaseRate": 0,
+            "purchaseRateDescription": "Необходимо 3 заказа, чтобы учитывался процент выкупа",
+            "loyaltyProgramInfoLink": "https://google.com"
         },
         "name": "Иванов Иван",
         "pendingBonuses": 1000,
@@ -127,6 +130,9 @@
   * **`progressBarColor`** — цвет прогресса в прогрессбаре (необязательное поле)
   * **`progressBarBackgroundColor`** — фоновый цвет прогрессбара (необязательное поле)
   * **`textColor`** — цвет текста блока программы лояльности (необязательное поле)
+  * **`purchaseRate`** — процент выкупа
+  * **`purchaseRateDescription`** — описание процента выкупа
+  * **`loyaltyProgramInfoLink`** — веб ссылка/deeplink при нажатии на карточку программы лояльности
 
 **Вспомогательная информация о пользователе.**
 
