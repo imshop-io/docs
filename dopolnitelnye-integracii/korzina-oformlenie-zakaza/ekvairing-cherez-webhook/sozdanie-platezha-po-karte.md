@@ -72,3 +72,38 @@
     "failureRegex": "payment/(.+)/failed"
 }
 ```
+
+{% hint style="danger" %}
+После закрытия экрана эквайринга уйдет запрос на проверку статуса платежа
+{% endhint %}
+
+### Проверка статуса оплаты
+
+### **Пример запроса**
+
+```json
+{
+    "command": "capture",
+    "paymentMethodId": "sberbank/card",
+    "paymentId": "7d0567f9-bf37-4e84-9580-86b68b8a0e81"
+}
+```
+
+* **`command`** - запрос на проведение платежа и проверку факта списания (`capture`)
+* **`paymentMethodId`** - выбранный покупателем способ оплаты. Берется из ответа [webhook получения способов оплат](../../../osnovnye-integracii/oplaty.md)
+* **`paymentId`** - Идентификатор платежа
+
+### **Пример ответа**
+
+```json
+{
+    "success": true,
+    "paymentId": "7d0567f9-bf37-4e84-9580-86b68b8a0e81",
+    "paymentCaptured": true
+}
+```
+
+* **`success`** - флаг успеха **`true`** / **`false`**
+* **`paymentId`** - идентификатор платежа
+* **`paymentCaptured`** - деньги успешно списаны
+* **`error`** - текст ошибки если **`success`** = **`false`**
