@@ -48,7 +48,7 @@
       * [Создание платежа по карте](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing-cherez-webhook/sozdanie-platezha-po-karte.md)
       * [Apple pay](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing-cherez-webhook/apple-pay.md)
       * [Google pay](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing-cherez-webhook/google-pay.md)
-      * [Проверка статуса оплаты](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing-cherez-webhook/proverka-statusa-oplaty.md)
+      * [Проверка статуса оплаты (отдельный end point)](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing-cherez-webhook/proverka-statusa-oplaty-otdelnyi-end-point.md)
     * [Расчет корзины, скидок, баллов](dopolnitelnye-integracii/korzina-oformlenie-zakaza/raschet-korziny-skidok-ballov.md)
     * [Информация о пвз](dopolnitelnye-integracii/korzina-oformlenie-zakaza/informaciya-o-pvz.md)
   * [Избранное](dopolnitelnye-integracii/izbrannoe/README.md)
