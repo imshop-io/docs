@@ -68,6 +68,7 @@
     * [История уведомлений](dopolnitelnye-integracii/profil/istoriya-uvedomlenii.md)
     * [История бонусов](dopolnitelnye-integracii/profil/istoriya-bonusov.md)
     * [Персональные предложения](dopolnitelnye-integracii/profil/personalnye-predlozheniya.md)
+    * [Код лояльности. Динамический](dopolnitelnye-integracii/profil/kod-loyalnosti.-dinamicheskii.md)
   * [Синхронизация статусов заказов](dopolnitelnye-integracii/sinkhronizaciya-statusov-zakazov.md)
   * [Рейтинг качества обслуживания](dopolnitelnye-integracii/reiting-kachestva-obsluzhivaniya.md)
   * [Реферальная программа](dopolnitelnye-integracii/referalnaya-programma/README.md)
