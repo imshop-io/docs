@@ -185,6 +185,8 @@ IMSHOP.IO позволяет при помощи webhook подключить у
 }
 ```
 
+* **`extraServices` -** дополнительные услуги, [как реализовать \*клик](https://app.gitbook.com/s/U3TenFaKOrsL4KjC2D3T/\~/changes/307/dopolnitelnye-integracii/korzina-oformlenie-zakaza/dopolnitelnye-uslugi)
+
 ## Формат ответа и примеры
 
 ### Описание формата
@@ -241,6 +243,7 @@ IMSHOP.IO позволяет при помощи webhook подключить у
   * **`title`** – заголовок
   * **`description`** – описание
   * **`availableUntil`** – крайний срок возможности активации промокода
+* **`extraServices` -** дополнительные услуги, [как реализовать \*клик](https://app.gitbook.com/s/U3TenFaKOrsL4KjC2D3T/\~/changes/307/dopolnitelnye-integracii/korzina-oformlenie-zakaza/dopolnitelnye-uslugi)
 
 ```json
 {

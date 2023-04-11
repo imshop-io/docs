@@ -51,6 +51,7 @@
       * [Проверка статуса оплаты (отдельный end point)](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing-cherez-webhook/proverka-statusa-oplaty-otdelnyi-end-point.md)
     * [Расчет корзины, скидок, баллов](dopolnitelnye-integracii/korzina-oformlenie-zakaza/raschet-korziny-skidok-ballov.md)
     * [Информация о пвз](dopolnitelnye-integracii/korzina-oformlenie-zakaza/informaciya-o-pvz.md)
+    * [Дополнительные услуги](dopolnitelnye-integracii/korzina-oformlenie-zakaza/dopolnitelnye-uslugi.md)
   * [Избранное](dopolnitelnye-integracii/izbrannoe/README.md)
     * [Избранные товары авторизованных пользователей](dopolnitelnye-integracii/izbrannoe/izbrannye-tovary-avtorizovannykh-polzovatelei.md)
     * [Синхронизация избранного с сайтом](dopolnitelnye-integracii/izbrannoe/sinkhronizaciya-izbrannogo-s-saitom.md)
