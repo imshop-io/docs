@@ -248,6 +248,8 @@ IMSHOP.IO передаёт состав корзины, полный адрес,
 }
 ```
 
+* **`extraServices` -** дополнительные услуги, [как реализовать \*клик](https://docs.imshop.io/dopolnitelnye-integracii/korzina-oformlenie-zakaza/dopolnitelnye-uslugi)
+
 ## Формат ответа и пример
 
 ### Описание формата
