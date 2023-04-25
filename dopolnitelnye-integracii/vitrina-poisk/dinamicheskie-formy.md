@@ -23,6 +23,7 @@
   * [Кнопка завершения редактирования формы (submit)](dinamicheskie-formy.md#submit)
   * [Примечание (notice)](dinamicheskie-formy.md#primechanie-notice)
   * [Сообщение после заполнения формы (alert)](dinamicheskie-formy.md#soobshenie-posle-zaversheniya-zapolneniya-forsy-alert)
+  * [Фото (photo)](dinamicheskie-formy.md#foto)
 * [Запрос клиентом следующих элементов формы](dinamicheskie-formy.md#zapros-klientom-sleduyushikh-elementov-formy)
 
 ### Заведение сабтудея с поддержкой динамических форм
@@ -287,7 +288,32 @@
 
 ![](broken-reference)
 
+#### Фото
 
+Данный элемент позволяет прикрепить фото из шалереи телефона
+
+```json
+{
+  "name": "receipt-photo",
+  "title": "Приложите фото чека",
+  "type": "photo",
+  "maxPhotos": 1
+}
+```
+
+* **`name`** - идентификатор поля
+* **`title`** - заголовок
+* **`maxPhotos`** - максимальное количество фото, которое можно прикрепить (сейчас поддерживается только **`1`**)
+
+При отправке фото, в этом поле будет передан список файлов в BASE64 кодировке. Пример:
+
+```json
+{
+    "data": {
+        "receipt-photo": ["XXXXXXXXXXXXXXXX"]
+    }
+}
+```
 
 ### Запрос клиентом следующих элементов формы
 
