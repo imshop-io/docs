@@ -93,7 +93,7 @@
     "priceDescription": "от 100 до 500 рублей",
     "lat": "55.654295",
     "lon": "37.578029",
-    "locationDescription": "Обойти здание, за поворотом направо."",
+    "locationDescription": "Обойти здание, за поворотом направо.",
     "title": "Пункт выдачи заказов №123",
     "locationId": "MSK123",
     "deliveryTerm": "от 3-х дней",
