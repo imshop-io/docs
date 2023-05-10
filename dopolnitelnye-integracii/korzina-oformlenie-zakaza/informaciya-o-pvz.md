@@ -101,7 +101,7 @@
     "images": [
       "https://image.com/image1.jpg",
       "https://image.com/image2.jpg",
-      "https://image.com/image3.jpg",
+      "https://image.com/image3.jpg"
     ]
 }
 ```
