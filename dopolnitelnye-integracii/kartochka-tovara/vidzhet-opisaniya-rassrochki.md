@@ -70,7 +70,7 @@ IMSHOP.IO позволяет вывести виджет рассрочки на
             },
             {
                 "tabName": "Подели",
-                "title": "asd",
+                "title": "asd2",
                 "description": "asd asd asd",
                 "topImageSrc": "imshop.io/icons/1.png",
                 "topImageWidth": 120,
