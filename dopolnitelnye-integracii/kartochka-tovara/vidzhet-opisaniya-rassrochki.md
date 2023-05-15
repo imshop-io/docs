@@ -36,51 +36,60 @@ IMSHOP.IO позволяет вывести виджет рассрочки на
 
 ```javascript
 {
-    "installment": {
-      "itemWidgetButton": {
-        "buttonText": "asd",
-        "buttonIconSrc": "imshop.io/icons/1.png",
-        "buttonIconWidth": 60,
-        "buttonIconHeight": 20,
-       },
-      "widgetPages": {
-        "tabName": "Долями",
-        "title": "asd",
-        "description": "asd asd asd",
-        "topImageSrc": "imshop.io/icons/1.png",,
-        "topImageWidth": 120,
-        "topImageHeight": 40,
-        "paymentsGraphic": [
-          {
-            "periodPrice": "2200 $",
-            "periodDescription": "asd",
-            "progress": 25,
-          },
-        ],
-        "additionalTextes": [
-          "asd asd asd",
-        ],
-        "footerText": "asdasdasdasd imshop.io"
-      }, {
-        "tabName": "Подели",
-        "title": "asd",
-        "description": "asd asd asd",
-        "topImageSrc": "imshop.io/icons/1.png",,
-        "topImageWidth": 120,
-        "topImageHeight": 40,
-        "paymentsGraphic": [
-          {
-            "periodPrice": "2200 $",
-            "periodDescription": "asd",
-            "progress": 25,
-          },
-        ],
-        "additionalTextes": [
-          "asd asd asd",
-        ],
-        "footerText": "asdasdasdasd imshop.io"
-      },
-      ]
+    "installment":
+    {
+        "itemWidgetButton":
+        {
+            "buttonText": "asd",
+            "buttonIconSrc": "imshop.io/icons/1.png",
+            "buttonIconWidth": 60,
+            "buttonIconHeight": 20
+        },
+        "widgetPages":
+        [
+            {
+                "tabName": "Долями",
+                "title": "asd",
+                "description": "asd asd asd",
+                "topImageSrc": "imshop.io/icons/1.png",
+                "topImageWidth": 120,
+                "topImageHeight": 40,
+                "paymentsGraphic":
+                [
+                    {
+                        "periodPrice": "2200 $",
+                        "periodDescription": "asd",
+                        "progress": 25
+                    }
+                ],
+                "additionalTextes":
+                [
+                    "asd asd asd"
+                ],
+                "footerText": "asdasdasdasd imshop.io"
+            },
+            {
+                "tabName": "Подели",
+                "title": "asd",
+                "description": "asd asd asd",
+                "topImageSrc": "imshop.io/icons/1.png",
+                "topImageWidth": 120,
+                "topImageHeight": 40,
+                "paymentsGraphic":
+                [
+                    {
+                        "periodPrice": "2200 $",
+                        "periodDescription": "asd",
+                        "progress": 25
+                    }
+                ],
+                "additionalTextes":
+                [
+                    "asd asd asd"
+                ],
+                "footerText": "asdasdasdasd imshop.io"
+            }
+        ]
     }
 }
 ```
@@ -92,7 +101,7 @@ IMSHOP.IO позволяет вывести виджет рассрочки на
   * **`buttonIconSrc`** - иконка кнопки
   * **`buttonIconWidth`** - ширина иконки кнопки
   * **`buttonIconHeight`** - высота иконки кнопки
-* **`widgetPages`** - описание экранов виджета
+* **`widgetPages`** - описание экранов виджета (массив)
   * **`title`** - заголовок экрана виджета&#x20;
   * **`tabName`** - наазвания в переключателе между экранами&#x20;
   * **`description`** - основное описание экрана виджета
