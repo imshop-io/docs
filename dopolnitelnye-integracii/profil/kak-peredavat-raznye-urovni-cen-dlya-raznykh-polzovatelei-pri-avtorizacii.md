@@ -11,9 +11,9 @@ description: (в разработке)
 {% hint style="danger" %}
 Дополнительные интеграции вводятся в эксплуатацию после завершения основных интеграций:
 
-* [Оформление заказа](broken-reference)
-* [Доставки](broken-reference)
-* [Оплаты](broken-reference)
+* [Оформление заказа](../../osnovnye-integracii/oformlenie-zakaza.md)
+* [Доставки](../../osnovnye-integracii/dostavki.md)
+* [Оплаты](../../osnovnye-integracii/oplaty.md)
 
 Для подключения дополнительных интеграций обратитесь к вашему менеджеру в IMSHOP.IO
 {% endhint %}
@@ -58,8 +58,8 @@ description: (в разработке)
 
 После этих действий авторизированный пользователь которому присвоен данный **`priceTier`** увидит следующую картину в каталоге&#x20;
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../.gitbook/assets/image (2).png>)
 
 А неавторизированный пользователь или авторизированный, но которому не присвоен данный **`priceTier`** увидит такие цены
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (1).png>)

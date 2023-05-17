@@ -4,7 +4,7 @@
 Мы работаем только через **POST**-запросы
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Для авторизованного пользователя доступна синхронизация истории заказов в мобильном приложении с его общей историей заказов.
 
