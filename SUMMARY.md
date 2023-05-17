@@ -69,6 +69,7 @@
     * [История уведомлений](dopolnitelnye-integracii/profil/istoriya-uvedomlenii.md)
     * [История бонусов](dopolnitelnye-integracii/profil/istoriya-bonusov.md)
     * [Персональные предложения](dopolnitelnye-integracii/profil/personalnye-predlozheniya.md)
+    * [Как передавать разные уровни цен (для разных пользователей) при авторизации](dopolnitelnye-integracii/profil/kak-peredavat-raznye-urovni-cen-dlya-raznykh-polzovatelei-pri-avtorizacii.md)
     * [Код лояльности. Динамический](dopolnitelnye-integracii/profil/kod-loyalnosti.-dinamicheskii.md)
   * [Синхронизация статусов заказов](dopolnitelnye-integracii/sinkhronizaciya-statusov-zakazov.md)
   * [Рейтинг качества обслуживания](dopolnitelnye-integracii/reiting-kachestva-obsluzhivaniya.md)
