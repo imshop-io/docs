@@ -45,7 +45,7 @@
 
 Для этого для товара в фиде надо передать&#x20;
 
-```
+```markup
 <offers>
   <offer id="61b06345-c404-11e0-ad14-3c4a926c6ba4" available="true" uuid="a43c03a5-3d1d-5791-b9a5-1ef95438cd8e" group_id="6" sizeGridImage="">
     <sort>2</sort>
