@@ -163,6 +163,8 @@
 <badge picture="https://xxxxx/xxxxxx.png"></badge>
 <badge type="smallImage" picture="https://xxxxx/xxxxxx.png" position="top-left"></badge>
 <badge type="color" bgColor="#02d3b4" position="bottom-right"></badge>
+<badge type="color" bgColor="#02d3b4" annotation="Длинное описание бейджа о том, что он значит, можно добавить 
+переносы прямо в текст, также разрешены ссылки прямо в тексте, которые будут кликабельны"></badge>
 <maxPromocodeDiscountPercent>0</maxPromocodeDiscountPercent>
 <vat>vat_20</vat>
 <picture>https://xxxx/xxxx/image1.jpg</picture>
