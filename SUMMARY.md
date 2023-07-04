@@ -43,6 +43,7 @@
     * [Рекомендации товаров](dopolnitelnye-integracii/kartochka-tovara/rekomendacii-tovarov.md)
     * [Виджет описания рассрочки](dopolnitelnye-integracii/kartochka-tovara/vidzhet-opisaniya-rassrochki.md)
     * [Персональные предложения](dopolnitelnye-integracii/kartochka-tovara/personalnye-predlozheniya.md)
+    * [Трейд-маркетинг](dopolnitelnye-integracii/kartochka-tovara/treid-marketing.md)
   * [Корзина/Оформление заказа](dopolnitelnye-integracii/korzina-oformlenie-zakaza/README.md)
     * [Эквайринг через webhook](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing-cherez-webhook/README.md)
       * [Создание платежа по карте](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing-cherez-webhook/sozdanie-platezha-po-karte.md)
