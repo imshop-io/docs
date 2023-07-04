@@ -96,6 +96,7 @@ description: Комплекты
 ```javascript
 {
     "kits": [{
+        "id": "asdf-asdf-ljkasdf",
         "fullPrice": 15990,
     	"kitPrice": 14990,
     	"benefit": 1000,
