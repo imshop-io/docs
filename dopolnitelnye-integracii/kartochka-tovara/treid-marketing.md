@@ -13,7 +13,7 @@ description: Комплекты
 Данный метод позволяет получить список разных маркетинговых предложений для конкретного товара.\
 \
 Список возможных маркетинговых предложений**:**\
-1\) <mark style="background-color:blue;">Комплекты</mark>. Данный метод позволяет отправить список товаров в дополнение к текущему, чтобы появилась возможность купить вместо какого-то товара целый комплект по сниженной стоимости.
+1\) Комплекты (Kits). Это список товаров в дополнение к текущему, чтобы появилась возможность купить вместо какого-то товара целый комплект по сниженной стоимости. Можно передать несколько комплектов к товару.
 
 ## Как работает
 
@@ -30,7 +30,7 @@ description: Комплекты
 
 ### Формат запроса
 
-* **`itemId`** - идентификатор товара, на экран которого зашел пользователя. К этому товару получаем список маркетинговых предложений.
+* **`itemId`** (required, тип: string)- идентификатор товара, на экран которого зашел пользователя. К этому товару получаем список маркетинговых предложений.
 
 #### Пример запроса
 
@@ -42,7 +42,8 @@ description: Комплекты
 
 ### Формат ответа
 
-* **`kit`** - комплект. У комплекта есть следующие параметры:
+* **`kits`** (optional, тип: `array<object>`) - комплекты. У каждого комплекта есть следующие параметры:
+  * **`id`** (required, тип: `string`) - уникальный идентификатор комплекта
   * **`fullPrice`** (required, тип: `number`) - полная цена - цена, если бы каждый товар покупался отдельно
   * **`kitPrice`** (required, тип: `number`) - цена комплекта - выгодная цена за весь комплект
   * **`benefit`** (required, тип: `number`) - выгода от приобретения комплекта (**`fullPrice - kitPrice`**)
@@ -58,6 +59,7 @@ description: Комплекты
 
 ```javascript
 {
+    "id": "asdf-asdf-ljkasdf",
     "fullPrice": 15990,
     "kitPrice": 14990,
     "benefit": 1000,
@@ -93,31 +95,34 @@ description: Комплекты
 
 ```javascript
 {
-    "kit": {
+    "kits": [{
         "fullPrice": 15990,
-        "kitPrice": 14990,
-        "benefit": 1000,
-        "kitItems": [
-            {
-                "id": "91fe51cc-1bac-5ea1-ad22-fbc15b04b429",
-                "image": "https://someImageUriForItem1",
-                "price": 5990,
-                "kitPrice": 5590
-            },
-            {
-                "id": "fbc15b04b429-1bac-5ea1-ad22-91fe51cc",
-                "image": "https://someImageUriForItem2",
-                "price": 6000,
-                "kitPrice": 5600,
-            },
-            {
-                "id": "1bac-fbc15b04b4291bac-5ea1-ad22-91fe51cc",
-                "image": "https://someImageUriForItem3",
-                "price": 4000,
-                "kitPrice": 3800,
+    	"kitPrice": 14990,
+    	"benefit": 1000,
+    	"kitItems": [
+    	    {
+            	"id": "91fe51cc-1bac-5ea1-ad22",
+            	"image": "https://someImageUriForItem1",
+            	"price": 5990,
+            	"kitPrice": 5590,
+            	"title": "Item 1 title"
+    	    },
+    	    {
+            	"id": "fbc15b04b429-1bac-5ea1-ad22-91fe51cc",
+            	"image": "https://someImageUriForItem2",
+            	"price": 6000,
+            	"kitPrice": 5600,
+            	"title": "Item 2 title"
+    	    },
+	    {
+            	"id": "1bac-fbc15b04b4291bac-5ea1-ad22-91fe51cc",
+            	"image": "https://someImageUriForItem3",
+            	"price": 4000,
+            	"kitPrice": 3800,
+            	"title": "Item 3 title"
             }
-        ]
-    }
+    	]    
+    }]
 }
 ```
 
