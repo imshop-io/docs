@@ -50,7 +50,7 @@
 
 * **`bonuses`** - список бонусов
   * **`added`** - кол-во добавленных бонусов
-  * **`expiredd`** - кол-во сгоревших бонусов
+  * **`expired`** - кол-во сгоревших бонусов
   * **`definitionMessage`** - описание
   * **`activationDate`** - [timestamp](https://www.unixtimestamp.com/) создания бонуса в милисекундах
   * **`expirationDate`** - [timestamp](https://www.unixtimestamp.com/) сгорания бонуса в милисекундах
