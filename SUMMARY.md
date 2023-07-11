@@ -76,6 +76,7 @@
   * [Рейтинг качества обслуживания](dopolnitelnye-integracii/reiting-kachestva-obsluzhivaniya.md)
   * [Реферальная программа](dopolnitelnye-integracii/referalnaya-programma/README.md)
     * [Приглашение в программу лояльности](dopolnitelnye-integracii/referalnaya-programma/priglashenie-v-programmu-loyalnosti.md)
+  * [Коллекции](dopolnitelnye-integracii/kollekcii.md)
 
 ## Digital Store Solution (Приложение продавца)
 
