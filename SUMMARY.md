@@ -77,6 +77,8 @@
   * [Реферальная программа](dopolnitelnye-integracii/referalnaya-programma/README.md)
     * [Приглашение в программу лояльности](dopolnitelnye-integracii/referalnaya-programma/priglashenie-v-programmu-loyalnosti.md)
   * [Коллекции](dopolnitelnye-integracii/kollekcii.md)
+  * [Динамические формы](dopolnitelnye-integracii/dinamicheskie-formy.md)
+  * [Экспорт форм](dopolnitelnye-integracii/eksport-form.md)
 
 ## Digital Store Solution (Приложение продавца)
 
