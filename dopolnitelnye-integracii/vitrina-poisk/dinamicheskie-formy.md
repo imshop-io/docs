@@ -80,7 +80,7 @@
 "title": "Запишитесь сегодня!"
 ```
 
-<figure><img src="../../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.13.10 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.13.10.png" alt=""><figcaption></figcaption></figure>
 
 #### Барабан (picker)
 
@@ -128,7 +128,7 @@
 * **`type`** – тип элемента (checkbox)
 * **`title`** – надпись справа от чекбокса
 
-<figure><img src="../../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.20.31 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.20.31.png" alt=""><figcaption></figcaption></figure>
 
 #### Поле ввода текста (text)
 
@@ -176,7 +176,7 @@
 * **`type`** – тип элемента (email)
 * **`title`** – заголовок элемента
 
-<figure><img src="../../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.36.45 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.36.45.png" alt=""><figcaption></figcaption></figure>
 
 #### Поле ввода телефона (phone)
 
@@ -200,7 +200,7 @@
 * **`type`** – тип элемента (phone)
 * **`title`** – заголовок элемента
 
-<figure><img src="../../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.35.30 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.35.30.png" alt=""><figcaption></figcaption></figure>
 
 #### Поле ввода даты (date)
 
@@ -224,7 +224,7 @@
 * **`type`** – тип элемента (text)
 * **`title`** – заголовок элемента
 
-<figure><img src="../../.gitbook/assets/31 December (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/31 December.png" alt=""><figcaption></figcaption></figure>
 
 #### Кнопка завершения редактирования формы (submit) <a href="#submit" id="submit"></a>
 

@@ -22,6 +22,7 @@
   * [Поле ввода даты (date)](dinamicheskie-formy.md#pole-vvoda-daty-date)
   * [Кнопка завершения редактирования формы (submit)](dinamicheskie-formy.md#submit)
   * [Примечание (notice)](dinamicheskie-formy.md#primechanie-notice)
+  * [Ссылка (url)](dinamicheskie-formy.md#ssylka-url)
   * [Сообщение после заполнения формы (alert)](dinamicheskie-formy.md#soobshenie-posle-zaversheniya-zapolneniya-forsy-alert)
 * [Запрос клиентом следующих элементов формы](dinamicheskie-formy.md#zapros-klientom-sleduyushikh-elementov-formy)
 
@@ -79,7 +80,7 @@
 "title": "Запишитесь сегодня!"
 ```
 
-![](<../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.13.10.png>)
+![](<../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.13.10 (1).png>)
 
 
 
@@ -131,7 +132,7 @@
 * type – тип элемента (checkbox)
 * title – надпись справа от чекбокса
 
-![](<../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.20.31.png>)
+![](<../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.20.31 (1).png>)
 
 
 
@@ -183,7 +184,7 @@
 * type – тип элемента (email)
 * title – заголовок элемента
 
-![](<../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.36.45.png>)
+![](<../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.36.45 (1).png>)
 
 
 
@@ -209,7 +210,7 @@
 * type – тип элемента (phone)
 * title – заголовок элемента
 
-![](<../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.35.30.png>)
+![](<../.gitbook/assets/Simulator Screen Shot - iPhone 13 - 2022-05-31 at 17.35.30 (1).png>)
 
 
 
@@ -235,7 +236,7 @@
 * type – тип элемента (text)
 * title – заголовок элемента
 
-![](<../.gitbook/assets/31 December.png>)
+![](<../.gitbook/assets/31 December (1).png>)
 
 
 
