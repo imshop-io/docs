@@ -72,7 +72,20 @@
         ],
         "status": "Золотая карта",
         "units": "бонусов",
-        "priceTier": "silver"
+        "priceTier": "silver",
+        "legalEntities": [
+            {
+                "businessAddress": "г Москва, ул. Тверская, 1",
+                "contactPersonName": "Галина",
+                "email": "test@test.io",
+                "legalEntityName": "ООО \"ВЕКТОР\"",
+                "phone": "+7 (900) 100-0000",
+                "position": "Офис-менеджер",
+                "selected": true,
+                "taxRegistrationReasonCode": "771001001",
+                "taxpayerIdentificationNumber": "7710010000"
+            }
+        ]
     }
 }
 ```
@@ -163,3 +176,16 @@
 
 Для виджета карты лояльности на главном экране можно задать фоновое изображение. Для этого необходимо передать **`cardBackgroundImage`** в объкте **`user`** или **`backgroundImage`** внутри блока **`loyaltyProgram`**. Приоритетнее будет ссылка внутри блока **`loyaltyProgram`**
 
+#### Юридические лица
+
+**`legalEntities`** - массив с юридическими лицами в профиле, объекты содержат следующие поля:
+
+* **`businessAddress`** - юридический адрес юрлица
+* **`contactPersonName`** - имя контактного лица
+* **`email`** - email для связи
+* **`legalEntityName`** - полное название юрлица
+* **`phone`** - контактный телефон в формате +7 (900) 000-00-00
+* **`position`** - должность контактного лица
+* **`selected`** - true/false, юрлицо выбрано в профиле по умолчанию. Значение `true` может иметь **только одно** юрлицо в списке
+* **`taxpayerIdentificationNumber`** - ИНН
+* **`taxpayerRegistrationReasonCode`** - КПП
