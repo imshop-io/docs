@@ -48,8 +48,8 @@
 * **`history`** - список уведомлений
   * **`id`** - уникальный идентификатор
   * **`title`** - название для уведомления
-  * **`createdOn`** - (number) [timestamp](https://www.unixtimestamp.com/) создания уведомления
-  * **`updatedOn`** - (number) [timestamp](https://www.unixtimestamp.com/) последнего обновления уведомления
+  * **`createdOn`** - (number) [timestamp](https://www.unixtimestamp.com/) создания уведомления (format Milliseconds (1/1,000 second))
+  * **`updatedOn`** - (number) [timestamp](https://www.unixtimestamp.com/) последнего обновления уведомления (format Milliseconds (1/1,000 second))
   * **`text`** - текст сообщения (опционально)
   * **`url`** - ссылка (опционально)
   * **`deepLink`** - диплинк (опционально)
