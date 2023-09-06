@@ -20,7 +20,7 @@
 
 ```javascript
 {
-    "userIdentifier": "123",
+    "userIdentifier": "123"
 }
 ```
 
