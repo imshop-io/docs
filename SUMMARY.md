@@ -54,7 +54,6 @@
     * [Информация о пвз](dopolnitelnye-integracii/korzina-oformlenie-zakaza/informaciya-o-pvz.md)
     * [Дополнительные услуги для хука расчета корзины](dopolnitelnye-integracii/korzina-oformlenie-zakaza/dopolnitelnye-uslugi-dlya-khuka-rascheta-korziny.md)
   * [Избранное](dopolnitelnye-integracii/izbrannoe/README.md)
-    * [Избранные товары авторизованных пользователей](dopolnitelnye-integracii/izbrannoe/izbrannye-tovary-avtorizovannykh-polzovatelei.md)
     * [Синхронизация избранного с сайтом](dopolnitelnye-integracii/izbrannoe/sinkhronizaciya-izbrannogo-s-saitom.md)
   * [Профиль](dopolnitelnye-integracii/profil/README.md)
     * [Учётная запись пользователя. Авторизация.](dopolnitelnye-integracii/profil/uchyotnaya-zapis-polzovatelya.-avtorizaciya./README.md)
