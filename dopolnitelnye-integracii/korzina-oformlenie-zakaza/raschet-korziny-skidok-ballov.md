@@ -320,52 +320,7 @@ IMSHOP.IO позволяет при помощи webhook подключить у
             "discount": 1000,
             "quantity": 1,
             "bonuses": { "canSpend": 0 },
-            "deliveryGroups": ["express"],
-            "error": "Позиция отсутствует на складе"
-        }
-    ],
-    "bonuses": {
-        "canSpend": 2000,
-        "willEarn": 1600
-    },
-    "deliveryGroupsBonuses": {
-        "delivery": {
-            "canSpend": 1500
-        },
-        "pickup": {
-            "canSpend": 500
-        }
-    },
-    "giftCards": [
-      {
-        "number": "123",
-        "pin": "123",
-        "success": true,
-        "status": "Подарочная карта 123 успешно привязана",
-      },
-      {
-        "number": "111",
-        "pin": "111",
-        "success": false,
-        "status": "Невозможно привязать подарочную карту 111",
-      },
-    ],
-    "availablePromocodes": [
-        {
-            "promocode": "PROMO12345",
-            "title": "Скидка 10%",
-            "description": "На детские товары, но не более 300 рублей",
-            "availableUntil": "2023-04-01T15:00:00+03:00"
-        },
-        {
-            "promocode": "PROMO67890",
-            "title": "Скидка 5%",
-            "description": "На все товары",
-            "availableUntil": "2023-04-01T15:00:00+03:00"
-        }
-    ],
-    "eula": "Нажимая кнопку \"Выбрать способ получения\", вы соглашаетесь с  <a href=\"https://google.com\">Предварительным договором купли-продажи  </a> и <a href=\"https://google.com\">Правилами дистанционных продаж</a>"
-}
+         
 ```
 
 
@@ -390,49 +345,161 @@ IMSHOP.IO позволяет при помощи webhook подключить у
 
 ```json
 {
-    ...
-    "promoGroups": [
-      [
+    "totalPrice": 95000,
+    "appliedPromocode": null,
+    "discount": 1000,
+    "notice": "Промокод действителен на курьерской доставке",
+    "skipPayment": false,
+    "items":
+    [
         {
-          "id": "dd76656711",
-          "name": "Скидка 1000 рублей на Apple Pencil при покупе iPad",
-          "discount": 1000,
-          "sumsWithBonuses": false
-        }
-      ],
-      [
-        {
-          "id": "dd1218888",
-          "name": "Чехол Baseus в подарок при покупке iPad и Apple Pencil",
-          "sumsWithBonuses": false,
-          "gifts": [
+            "name": "Apple iPad (2018) 64Gb Wi-Fi, серебристый",
+            "id": "12345",
+            "price": 29990,
+            "discount": 0,
+            "quantity": 1,
+            "subtotal": 29990,
+            "bonuses":
             {
-              "id": "98765",
-              "quantity": 1
-            }
-          ]
-        }
-      ],
-      [
-        {
-          "id": "dd771099",
-          "name": "Подарок на выбор при заказе от 5000",
-          "sumsWithBonuses": true,
-          "giftOptions": [
-            {
-              "id": "12345",
-              "quantity": 1
+                "canSpend": 1990
             },
+            "addons":
+            [
+                {
+                    "configurationId": "1234"
+                }
+            ],
+            "itemKitId": "test-kit-1"
+        },
+        {
+            "name": "Apple Pencil 1-го поколения",
+            "id": "22345",
+            "price": 8890,
+            "discount": 1000,
+            "quantity": 1,
+            "subtotal": 7890,
+            "appliedDiscounts":
+            [
+                "dd76656711"
+            ],
+            "bonuses":
             {
-              "id": "56789",
-              "quantity": 1
+                "canSpend": 0
+            },
+            "unavailableDeliveryMessage": "Для корзины с этим товаром будет недоступен самомывывоз"
+        },
+        {
+            "name": "Чехол Baseus для iPad 2018 черный",
+            "id": "32345",
+            "price": 2999,
+            "discount": 2999,
+            "quantity": 1,
+            "appliedDiscounts":
+            [
+                "dd1218888"
+            ],
+            "bonuses":
+            {
+                "canSpend": 0
             }
-          ],
-          "giftOptionsLimit": 1
+        },
+        {
+            "name": "Чехол Baseus для iPad 2018 коричневый",
+            "id": "42345",
+            "price": 1000,
+            "discount": 2000,
+            "quantity": 3,
+            "gift": 2,
+            "appliedDiscounts":
+            [
+                "dd771086"
+            ],
+            "notice": "Товар доступен только на самовывозе",
+            "bonuses":
+            {
+                "canSpend": 0
+            }
+        },
+        {
+            "name": "Чехол Baseus для iPad 2018 черный",
+            "id": "87787",
+            "price": 1000,
+            "discount": 1000,
+            "quantity": 1,
+            "appliedDiscounts":
+            [
+                "dd771099"
+            ],
+            "gift": 1,
+            "bonuses":
+            {
+                "canSpend": 0
+            }
+        },
+        {
+            "name": "Apple Mac Pro 2020",
+            "id": "80008",
+            "price": 5000000,
+            "discount": 1000,
+            "quantity": 1,
+            "bonuses":
+            {
+                "canSpend": 0
+            },
+            "deliveryGroups":
+            [
+                "express"
+            ],
+            "error": "Позиция отсутствует на складе"
         }
-      ]
-    ]
-    ...
+    ],
+    "bonuses":
+    {
+        "canSpend": 2000,
+        "willEarn": 1600
+    },
+    "deliveryGroupsBonuses":
+    {
+        "delivery":
+        {
+            "canSpend": 1500
+        },
+        "pickup":
+        {
+            "canSpend": 500
+        }
+    },
+    "giftCards":
+    [
+        {
+            "number": "123",
+            "pin": "123",
+            "success": true,
+            "status": "Подарочная карта 123 успешно привязана"
+        },
+        {
+            "number": "111",
+            "pin": "111",
+            "success": false,
+            "status": "Невозможно привязать подарочную карту 111"
+        }
+    ],
+    "availablePromocodes":
+    [
+        {
+            "promocode": "PROMO12345",
+            "title": "Скидка 10%",
+            "description": "На детские товары, но не более 300 рублей",
+            "availableUntil": "2023-04-01T15:00:00+03:00"
+        },
+        {
+            "promocode": "PROMO67890",
+            "title": "Скидка 5%",
+            "description": "На все товары",
+            "availableUntil": "2023-04-01T15:00:00+03:00"
+        }
+    ],
+    "eula": "Нажимая кнопку \"Выбрать способ получения\", вы соглашаетесь с  <a href=\"https://google.com\">Предварительным договором купли-продажи  </a> и <a href=\"https://google.com\">Правилами дистанционных продаж</a>"
 }
 ```
 
