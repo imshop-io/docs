@@ -40,7 +40,16 @@
 
 ```
 {
-  formName: 'form123'
+  "formName": "form123"
+}
+```
+
+При запросе формы из DSS-приложения в запрос дополнительно будет присылаться outletId магазина, привязанного к продавцу (в случае наличия привязанного магазина).
+
+```
+{
+    "formName": "form123",
+    "outletId": "id123"
 }
 ```
 
@@ -326,7 +335,124 @@
 
 ![](<../.gitbook/assets/Thanks for participating.png>)
 
+#### Markdown (markdown)
 
+Rich-текст в формате Markdown.
+
+Передается в `elements`
+
+```json
+{
+  "name": "md-el",
+  "text": "## Example heading\n\n**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. Mauris ante dolor, feugiat finibus nunc et, egestas auctor mi.\n\n*Quisque neque risus, vulputate at massa nec, ornare lobortis magna.*",
+  "type": "markdown"
+}
+```
+
+* name – идентификатор элемента
+* text – текст в формате Markdown
+* type – тип элемента (markdown)
+
+![](<../.gitbook/assets/dynamic form markdown.png>)
+
+#### Пикер фотографий (images)
+
+Rich-текст в формате Markdown.
+
+Передается в `elements`
+
+```json
+{
+  "name": "photos-el",
+  "minImages": 1,
+  "maxImages": 3,
+  "type": "images"
+}
+```
+
+* name – идентификатор элемента
+* minImages – минимальное количество фотографий для отправки (по умолчанию 0)
+* maxImages – максимальное количество фотографий для отправки (по умолчанию ограничение отсутствует)
+* type – тип элемента (images)
+
+![](<../.gitbook/assets/photo picker gif (1).gif>)
+
+Изображения передаются в base64. При экспорте формы в поле `data` появится массив `images` следующего вида:
+
+```json
+{
+    ...
+    "data": {
+        ...
+        "images": [
+            {
+                "id": "9e7f9397-10e7-47ab-9d02-75d611e77b39",
+                "type": "image/jpg",
+                "base64": "/9j/4AAQSkZJRgABAQAA..."
+            },
+            ...
+        ]
+    }
+}
+
+```
+
+* id – случайный идентификатор фотографии
+* type – MIME-тип изображения
+* base64 – закодированное изображение в base64
+
+#### Авторизация покупателя (customer\_auth)
+
+_**Только для DSS.**_ Авторизация или регистрация покупателя и последующая отправка его данных в форме.
+
+Передается в `elements`
+
+```json
+{
+  "name": "customer-auth-el",
+  "required": true,
+  "type": "customer_auth"
+}
+```
+
+* name – идентификатор элемента
+* required – true/false, является ли данный элемент обязательным для заполнения
+* type – тип элемента (customer\_auth)
+
+![](<../.gitbook/assets/customer auth gif.gif>)
+
+При экспорте формы в поле `data` появится объект `customer` следующего вида:
+
+<pre class="language-json"><code class="lang-json">{
+    ...
+    "data": {
+        ...
+        "customer": {
+            "name": "Dale Cooper",
+            "phone": "79000000000",
+            "email": "test@imshop.io",
+            "externalId": "79000000000"
+<strong>        }
+</strong>    }
+}
+
+</code></pre>
+
+Поле `externalId` будет содержать идентификатор пользователя в вашей системе.
+
+Помимо этого, запросе на экспорт формы будет приходить `staffId` продавца, с аккаунта которого была отправлена форма:
+
+```
+{
+    "formId": "test-form",
+    "installId": "123",
+    "data": {
+      ...
+    },
+    "staffId": "STAFF123"
+    }
+} 
+```
 
 ### Запрос клиентом следующих элементов формы
 
