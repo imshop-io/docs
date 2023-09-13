@@ -24,6 +24,9 @@
   * [Примечание (notice)](dinamicheskie-formy.md#primechanie-notice)
   * [Ссылка (url)](dinamicheskie-formy.md#ssylka-url)
   * [Сообщение после заполнения формы (alert)](dinamicheskie-formy.md#soobshenie-posle-zaversheniya-zapolneniya-forsy-alert)
+  * [Markdown](dinamicheskie-formy.md#markdown-markdown)
+  * [Авторизация покупателя](dinamicheskie-formy.md#avtorizaciya-pokupatelya-customer\_auth)
+  * [Выбор фотографий](dinamicheskie-formy.md#piker-fotografii-images)
 * [Запрос клиентом следующих элементов формы](dinamicheskie-formy.md#zapros-klientom-sleduyushikh-elementov-formy)
 
 ### Заведение сабтудея с поддержкой динамических форм
