@@ -82,6 +82,7 @@
 ## Digital Store Solution (Приложение продавца)
 
 * [Интеграции](digital-store-solution-prilozhenie-prodavca/integracii/README.md)
+  * [Фид сотрудников dss](digital-store-solution-prilozhenie-prodavca/integracii/fid-sotrudnikov-dss.md)
   * [Создание заявки](digital-store-solution-prilozhenie-prodavca/integracii/sozdanie-zayavki.md)
   * [Статистика](digital-store-solution-prilozhenie-prodavca/integracii/statistika.md)
   * [Персональные предложения в розничном магазине](digital-store-solution-prilozhenie-prodavca/integracii/personalnye-predlozheniya-v-roznichnom-magazine.md)
