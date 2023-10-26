@@ -84,6 +84,13 @@ IMSHOP.IO передаёт состав корзины, полный адрес,
         "paymentGateway": "yandex",
         "externalIds": { "webhook": "66510", "retailcrm": "1456AA", "bitrix": "614" },
         "deliveryComment": "Домофон не работает",
+        "legalEntity": {
+            "contactPersonPosition": "Менеджер",
+            "legalEntityName": "ООО ВЕКТОР",
+            "taxpayerIdentificationNumber": "7710000000",
+            "taxRegistrationReasonCode": "77100000",
+            "businessAddress": "г. Москва, Кутузовский проспект, 36",
+        },
         "customSectionValues": {
             "secionName1": {
                 "field1": "тест",
@@ -190,6 +197,12 @@ IMSHOP.IO передаёт состав корзины, полный адрес,
   * **`paymentGateway`** — использованный эквайринг
   * **`externalIds`** — список идентификаторов этого же заказа в других системах
   * **`deliveryComment`** — комментарий к заказу
+  * **`legalEntity`** – информация о юридическом лице, появляется, если заказ оформляется на юридическое лицо
+    * **`contactPersonPosition`** – должность контактного лица
+    * **`legalEntityName`** – полное название юридического лица
+    * **`taxpayerIdentificationNumber`** – ИНН
+    * **`taxRegistrationReasonCode`** – КПП
+    * **`businessAddress`** – юридический адрес
   * **`items`** — список товаров в корзине
     * **`id`** — идентификатор товара в IMSHOP.IO
     * **`configurationId`** — идентификатор товарного предложения в системе клиентов
