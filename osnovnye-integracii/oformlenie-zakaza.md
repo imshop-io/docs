@@ -350,3 +350,369 @@ IMSHOP.IO передаёт состав корзины, полный адрес,
   ]
 }
 ```
+
+### Оформление заказов одним запросом для разделенной корзины (включается по запросу)
+
+{% hint style="info" %}
+Оформление заказов одним запросом включается настройкой с помощью запроса продукт менеджеру, после этого заказы будут оформляться и отравляться в бекенд клиента одним запросом.
+{% endhint %}
+
+Нет отличия в структуре передаваемых данных от обычного оформления заказа кроме количества заказов в массиве **orders** в передаваемом в запросе
+
+#### Пример
+
+```json
+{
+    "device": {
+        "platform": "ios"
+    },
+    "installId": "9e201bab-1ccf-47d1-82e0-90d71ee5fd2c",
+    "orders": [
+    {
+      "uuid": "9df27233-62bd-4798-853a-0a3b1336ffa2",
+      "groupId": "7047a6a0-f5df-49b0-8ae5-ce02c9668be4",
+      "externalUserId": null,
+      "createdOn": "2023-10-31T12:34:36.911Z",
+      "updatedOn": "2023-10-31T12:34:36.911Z",
+      "status": "placed",
+      "name": "Test tet",
+      "phone": "+79312312312",
+      "email": "asdsad@test.ru",
+      "country": "RU",
+      "currency": "RUB",
+      "city": "Москва",
+      "address": "",
+      "addressData": {
+        "apt": null,
+        "lat": "55.75396",
+        "lon": "37.620393",
+        "zip": "101000",
+        "area": null,
+        "city": "Москва",
+        "fias": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+        "house": null,
+        "kladr": "7700000000000",
+        "value": "г Москва",
+        "region": "Москва",
+        "street": null,
+        "areaFias": null,
+        "building": null,
+        "cityFias": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+        "fiasCode": null,
+        "areaKladr": null,
+        "cityKladr": "7700000000000",
+        "houseFias": null,
+        "beltwayHit": null,
+        "houseKladr": null,
+        "regionFias": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+        "settlement": null,
+        "streetFias": null,
+        "streetType": null,
+        "regionKladr": "7700000000000",
+        "streetKladr": null,
+        "capitalMarker": "0",
+        "settlementFias": null,
+        "beltwayDistance": null,
+        "settlementKladr": null,
+        "settlementWithType": null
+      },
+      "addressComponents": {
+        "lat": "55.75396",
+        "lon": "37.620393",
+        "city": "Москва",
+        "fiasId": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+        "region": "Москва",
+        "cityFiasId": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+        "cityKladrId": "7700000000000",
+        "regionFiasId": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+        "regionKladrId": "7700000000000",
+        "federalDistrict": "Центральный",
+        "house": null,
+        "building": null
+      },
+      "price": 360,
+      "deliveryPrice": 0,
+      "authorizedBonuses": 0,
+      "promocode": null,
+      "appliedDiscount": 0,
+      "loyaltyCard": null,
+      "giftCards": [],
+      "delivery": "pickup",
+      "deliveryDate": null,
+      "deliveryName": "Забронировать в магазине РЕСПУБЛИКА",
+      "pickupLocationId": "3",
+      "pickupLoactionSnapshot": {
+        "id": 3,
+        "city": "Кокошкино",
+        "mall": null,
+        "name": null,
+        "role": [],
+        "shop": false,
+        "tags": [],
+        "email": null,
+        "large": false,
+        "phone": null,
+        "price": null,
+        "route": null,
+        "title": "Москва, Мясницкая улица, 24/7с1",
+        "online": false,
+        "subway": "м. Чистые пруды",
+        "address": "Москва, Мясницкая улица, 24/7с1",
+        "logoUrl": null,
+        "mapIcon": null,
+        "minDays": null,
+        "service": false,
+        "axaptaId": null,
+        "exchange": false,
+        "infoTags": [],
+        "latitude": "55.762116",
+        "metadata": null,
+        "regional": false,
+        "takeAway": false,
+        "longitude": "37.63566",
+        "onlyLarge": false,
+        "privateId": null,
+        "routeLink": null,
+        "timeLabel": "Срок доставки примерно дней: 1",
+        "timetable": "Срок хранения 3 дня. Ежедневно: 09:00—22:00",
+        "warehouse": false,
+        "routeImage": null,
+        "cardPayment": false,
+        "subwayColor": null,
+        "dressingRoom": false,
+        "legalEntityId": null,
+        "deliveryRegion": null,
+        "resourceCentre": false
+      },
+      "payment": "pikassa",
+      "paymentName": "Банковской картой",
+      "paymentProcessed": null,
+      "paymentId": null,
+      "paymentGateway": null,
+      "externalIds": {},
+      "deliveryComment": "",
+      "doNotCallMe": false,
+      "attribution": {
+        "adset": null,
+        "medium": "organic",
+        "tracker": null,
+        "campaign": null
+      },
+      "items": [
+        {
+          "id": "15c37a7c-b738-54e5-9b81-e685c901a84e",
+          "configurationId": "229f8382-35c7-11ee-bbaf-0050560191c8",
+          "name": "Чипсы Pringles Spicy Crayfish, 110 гр",
+          "price": 360,
+          "quantity": 1,
+          "discount": 0,
+          "subtotal": 360,
+          "privateId": "229f8382-35c7-11ee-bbaf-0050560191c8"
+        }
+      ],
+      "userData": {},
+      "customSectionValues": {},
+      "extraServices": []
+    },
+    {
+      "uuid": "a18075eb-f7af-487f-be07-f4ad655ea4d4",
+      "groupId": "7047a6a0-f5df-49b0-8ae5-ce02c9668be4",
+      "externalUserId": null,
+      "createdOn": "2023-10-31T12:34:36.668Z",
+      "updatedOn": "2023-10-31T12:34:36.668Z",
+      "status": "placed",
+      "name": "Test tet",
+      "phone": "+79312312312",
+      "email": "asdsad@test.ru",
+      "country": "RU",
+      "currency": "RUB",
+      "city": "Москва",
+      "address": "",
+      "addressData": {
+        "apt": null,
+        "lat": "55.75396",
+        "lon": "37.620393",
+        "zip": "101000",
+        "area": null,
+        "city": "Москва",
+        "fias": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+        "house": null,
+        "kladr": "7700000000000",
+        "value": "г Москва",
+        "region": "Москва",
+        "street": null,
+        "areaFias": null,
+        "building": null,
+        "cityFias": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+        "fiasCode": null,
+        "areaKladr": null,
+        "cityKladr": "7700000000000",
+        "houseFias": null,
+        "beltwayHit": null,
+        "houseKladr": null,
+        "regionFias": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+        "settlement": null,
+        "streetFias": null,
+        "streetType": null,
+        "regionKladr": "7700000000000",
+        "streetKladr": null,
+        "capitalMarker": "0",
+        "settlementFias": null,
+        "beltwayDistance": null,
+        "settlementKladr": null,
+        "settlementWithType": null
+      },
+      "addressComponents": {
+        "lat": "55.75396",
+        "lon": "37.620393",
+        "city": "Москва",
+        "fiasId": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+        "region": "Москва",
+        "cityFiasId": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+        "cityKladrId": "7700000000000",
+        "regionFiasId": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+        "regionKladrId": "7700000000000",
+        "federalDistrict": "Центральный",
+        "house": null,
+        "building": null
+      },
+      "price": 3150,
+      "deliveryPrice": 0,
+      "authorizedBonuses": 0,
+      "promocode": null,
+      "appliedDiscount": 0,
+      "loyaltyCard": null,
+      "giftCards": [],
+      "delivery": "boxberry",
+      "deliveryDate": null,
+      "deliveryName": "Boxberry ПВЗ",
+      "pickupLocationId": "03077",
+      "pickupLoactionSnapshot": {
+        "id": "03077",
+        "city": "Кокошкино",
+        "mall": null,
+        "name": null,
+        "role": [],
+        "shop": false,
+        "tags": [],
+        "email": null,
+        "large": false,
+        "phone": null,
+        "price": null,
+        "route": null,
+        "title": "03077",
+        "online": false,
+        "subway": null,
+        "address": "Кокошкино, ул. Дачная, д. 9А",
+        "logoUrl": null,
+        "mapIcon": null,
+        "minDays": null,
+        "service": false,
+        "axaptaId": null,
+        "exchange": false,
+        "infoTags": [],
+        "latitude": "55.597917",
+        "metadata": null,
+        "regional": false,
+        "takeAway": false,
+        "longitude": "37.166798",
+        "onlyLarge": false,
+        "privateId": null,
+        "routeLink": null,
+        "timeLabel": "Доставка: 3 ноября",
+        "timetable": "Срок хранения: 10 дн. Пн-пт: 11:00 - 20:00, Сб: 11:00 - 17:00",
+        "warehouse": false,
+        "routeImage": null,
+        "cardPayment": false,
+        "subwayColor": null,
+        "dressingRoom": false,
+        "legalEntityId": null,
+        "deliveryRegion": null,
+        "resourceCentre": false
+      },
+      "payment": "pikassa",
+      "paymentName": "Банковской картой",
+      "paymentProcessed": null,
+      "paymentId": null,
+      "paymentGateway": null,
+      "externalIds": {},
+      "deliveryComment": "",
+      "doNotCallMe": false,
+      "attribution": {
+        "adset": null,
+        "medium": "organic",
+        "tracker": null,
+        "campaign": null
+      },
+      "items": [
+        {
+          "id": "1a368f74-5227-502f-a8ea-18baee167b61",
+          "configurationId": "1fa5d445-8047-11ed-bba8-0050560191c8",
+          "name": "Констрктор Lego Minecraft 21166 Заброшенная шахта",
+          "prie": 3150,
+          "quanity": 1,
+          "discoun": 0,
+          "subtota": 3150,
+          "privated": "1fa5d445-8047-11ed-bba8-0050560191c8"
+        }
+      ],
+      "userData": {},
+      "customSectionValues": {},
+      "extraServices": []
+    }
+  ]
+}
+```
+
+#### Пример ответа
+
+### Пример ответа
+
+{% hint style="info" %}
+в ответе бекенд клиента обязательно должен вернуть **uuid** каждого заказа, который был передан в запросе, это нужно для того, чтобы сопоставить заказы и они не перепутались при обработке
+{% endhint %}
+
+```json
+{
+  "orders": [
+    {
+      "message": "Ваш заказ принят.\nЗаказ будет готов к выдаче сегодня после 14:00",
+      "success": true,
+      "id": "12345",
+      "publicId": "ЗКЗ445566",
+      "uuid": "9df27233-62bd-4798-853a-0a3b1336ffa2",
+      "items": [
+        {
+          "id": "15c37a7c-b738-54e5-9b81-e685c901a84e",
+          "configurationId": "229f8382-35c7-11ee-bbaf-0050560191c8",
+          "name": "Чипсы Pringles Spicy Crayfish, 110 гр",
+          "price": 360,
+          "quantity": 1,
+          "discount": 0,
+          "subtotal": 360,
+          "privateId": "229f8382-35c7-11ee-bbaf-0050560191c8"
+        }
+      ]
+    },
+    {
+      "message": "Ваш заказ принят.\nЗаказ будет готов к выдаче сегодня после 14:00",
+      "success": true,
+      "id": "12346",
+      "publicId": "ЗКЗ445567",
+      "uuid": "a18075eb-f7af-487f-be07-f4ad655ea4d4",
+      "items": [
+        {
+          "id": "1a368f74-5227-502f-a8ea-18baee167b61",
+          "configurationId": "1fa5d445-8047-11ed-bba8-0050560191c8",
+          "name": "Констрктор Lego Minecraft 21166 Заброшенная шахта",
+          "prie": 3150,
+          "quanity": 1,
+          "discoun": 0,
+          "subtota": 3150,
+          "privated": "1fa5d445-8047-11ed-bba8-0050560191c8"
+        }
+      ]
+    }
+  ]
+}
+```
