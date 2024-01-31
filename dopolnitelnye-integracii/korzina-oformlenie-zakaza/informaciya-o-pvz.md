@@ -65,7 +65,8 @@
             "quantity": 1
         }
     ],
-    "locationId": "MSK582"
+    "locationId": "MSK582",
+    "deliveryId": "d_123"
 }
 ```
 
