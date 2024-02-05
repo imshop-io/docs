@@ -243,6 +243,49 @@
 }
 ```
 
+### Пример заполнения extraFields для использования checkbox для соглашений
+
+{% hint style="info" %}
+Когда поле required имеет значение true, отзыв нельзя будет отправить пока пользователь не отметит checkbox &#x20;
+{% endhint %}
+
+{% hint style="info" %}
+В тексте чекбокса поддерживаются ссылки в формате markdown.
+{% endhint %}
+
+```json
+{
+  "rating": "5.0",
+  "reviews": [ /*...тут список отзывов*/ ],
+  "extraFields": [
+    {
+      "id": "agreement",
+      "type": "checkbox",
+      "label": "",
+      "required": true,
+      "options": [
+        {
+          "label": "При использовании чекбокса для [соглашения](https://www.google.com/) нужно передавать как два раздельных чекбокса с опцией из 1 варианта и полем required: true",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "agreement2",
+      "type": "checkbox",
+      "label": "",
+      "required": true,
+      "options": [
+        {
+          "label": "Второй чекбок для соглашения [передан отдельно от первого с 1 варианом](https://www.google.com/)",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}
+```
+
 ## Сохранение нового отзыва
 
 ### Формат запроса
