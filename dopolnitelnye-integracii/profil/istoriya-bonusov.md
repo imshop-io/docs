@@ -52,8 +52,8 @@
   * **`added`** - кол-во добавленных бонусов
   * **`expired`** - кол-во сгоревших бонусов
   * **`definitionMessage`** - описание
-  * **`activationDate`** - [timestamp](https://www.unixtimestamp.com/) создания бонуса в милисекундах
-  * **`expirationDate`** - [timestamp](https://www.unixtimestamp.com/) сгорания бонуса в милисекундах
+  * **`activationDate`** - [timestamp](https://www.unixtimestamp.com/) создания бонуса в миллисекундах
+  * **`expirationDate`** - [timestamp](https://www.unixtimestamp.com/) сгорания бонуса в миллисекундах
 
 {% hint style="info" %}
 Следует помнить, что этот запрос будет приходить из нашего доверенного, [авторизованного](uchyotnaya-zapis-polzovatelya.-avtorizaciya./avtorizaciya-po-nomeru-telefona-+-sms.md) сервера; это — не публичный API.
