@@ -44,6 +44,7 @@ Universal links работают в мессенджерах (whatsapp, telegram
 
 * Получите у вашего менеджера в IMSHOP.IO идентификатор приложения для Universal ссылок (appID)
 * В следующем шаблоне замените appID, на полученный от менеджера IMSHOP.IO и сделайте этот файл доступным по адресу https://www.вашсайт.ru/.well-known/apple-app-site-association
+* appId формируется из team\_id.bundle\_name
 
 ```javascript
 {
@@ -51,7 +52,7 @@ Universal links работают в мессенджерах (whatsapp, telegram
     "apps": [],
     "details": [
       {
-        "appID": "XXXXXXXXXX.ru.yourapp.ios",
+        "appID": "XXXXXXXXXX(team_id).ru.yourapp.ios",
         "paths": [
           "*"
         ]
