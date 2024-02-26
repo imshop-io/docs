@@ -166,17 +166,6 @@
 * **`sizeGridPageUrl`** -  URL-ссылка на HTML с таблицей размеров (отобразится, если не задан в атрибутах sizeGridImage и нет sizeGridImgUrl в settings)
 * **`othercolors`**- блок товаров "еще в другом цвете", перечислить group Id товаров с альтернативными цветами. **Не используется вместе с parentVendorCode.**
 * **`parentVendorCode`** - по данному параметру объединяем товары для перелинковки (позволяет добавлять переключаемые параметры на карточку товара) **не должен пересекаться с group id, не используется вместе с othercolors**
-* **`cashback` -** кол-во кэшбека
-
-Так же есть возможность показывать кэшбек в зависимости от **сегмента** пользователя.
-
-```xml
-<cashback>100</cashback>
-<cashback priceTier="silver">110</cashback>
-<cashback priceTier="gold">120</cashback>
-<cashback priceTier="platina">130</cashback>
-<cashback priceTier="vip">140</cashback>
-```
 
 ```xml
 <offer id="998822" available="true" group_id="222222">
@@ -193,7 +182,6 @@
 <currencyId>RUB</currencyId>
 <saleEndsDateIso>2020-11-22T14:37:38</saleEndsDateIso>
 <guid>241921</guid>
-<cashback>100</cashback>
 <vendor>BrandName</vendor>
 <vendorCode>0000-667838</vendorCode>
 <categoryId>1728</categoryId>

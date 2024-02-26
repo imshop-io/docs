@@ -8,7 +8,7 @@
   * [YML (фид каталога товаров)](sinkhronizaciya-kataloga/sozdanie-fida/yml-fid-kataloga-tovarov.md)
   * [Фид наличия товаров](sinkhronizaciya-kataloga/sozdanie-fida/fid-nalichiya-tovarov.md)
   * [YML фид для ElasticSearch](sinkhronizaciya-kataloga/sozdanie-fida/yml-fid-dlya-elasticsearch/README.md)
-    * [Передача наличия и цен по регионам, персональные цены, cashback](sinkhronizaciya-kataloga/sozdanie-fida/yml-fid-dlya-elasticsearch/peredacha-nalichiya-i-cen-po-regionam-personalnye-ceny-cashback.md)
+    * [Передача наличия и цен по регионам, персональные цены, cashback](sinkhronizaciya-kataloga/sozdanie-fida/yml-fid-dlya-elasticsearch/peredacha-nalichiya-i-cen-po-regionam-personalnye-ceny.md)
     * [Кастомные сортировки](sinkhronizaciya-kataloga/sozdanie-fida/yml-fid-dlya-elasticsearch/kastomnye-sortirovki.md)
   * [Фид наличия для ElasticSearch](sinkhronizaciya-kataloga/sozdanie-fida/fid-nalichiya-dlya-elasticsearch.md)
 
