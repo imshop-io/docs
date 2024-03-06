@@ -91,6 +91,7 @@
   * [История заказов](digital-store-solution-prilozhenie-prodavca/integracii/istoriya-zakazov.md)
   * [Доставки](digital-store-solution-prilozhenie-prodavca/integracii/dostavki.md)
   * [Расчет корзины, скидок, баллов](digital-store-solution-prilozhenie-prodavca/integracii/raschet-korziny-skidok-ballov.md)
+  * [Найти покупателя](digital-store-solution-prilozhenie-prodavca/integracii/naiti-pokupatelya.md)
 
 ## Примерочные
 
