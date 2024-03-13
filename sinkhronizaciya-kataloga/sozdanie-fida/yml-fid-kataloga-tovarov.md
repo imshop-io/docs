@@ -68,17 +68,6 @@
 * **`priceByCard`** - цена товара по скидочной карте (в разработке), должна быть ниже обычной цены. Несовместимо с **`oldrice`**.
 * **`priceUnits`** - единица измерения.
 * **`oldprice`** - старая цена товара, должна быть выше текущей.
-
-Так же есть возможность показывать старую цену в зависимости от **сегмента** пользователя.
-
-```xml
-<oldprice>20000</oldprice>
-<oldprice priceTier="silver">19500</oldprice>
-<oldprice priceTier="gold">19400</oldprice>
-<oldprice priceTier="platina">19300</oldprice>
-<oldprice priceTier="vip">19200</oldprice>
-```
-
 * **`saleEndsDateIso`** - Дата время до окончания акции по аналогии с датой фида у яндекса.
 * **`retailPrice`** - РРЦ товара (цена товара в оффлайне в случае если отличается от price).
 * **`deferPrice`** - цена на случай отсрочки получения, должна быть ниже **`price`**.
@@ -219,27 +208,12 @@
 * **`textColor`** - цвет текста (опционально)
 * **`backgroundColor`** - цвет фона (опционально)
 * **`universalLink`** - URL страницы категории на сайте магазина (опционально)
-* **`name`** - имя категории (обязательно _при использовании сегментов в категории_)
+* **`name`** - имя категории (обязательно _при использовании сегментов в категории, только на тарифах с ElasticSearch_)
 
 ```xml
 <categories>
 <category id="6323" picture="https://xxx/xxx/xxx.jpg">Смартфоны и гаджеты</category>
 <category id="183" parentId="6323" picture="https://xxx/xxx/xxx.jpg">Смартфоны</category>
-</categories> 
-```
-
-#### category -> segment (функционал сегментов в категориях)
-
-* **`id`** - идентификатор сегмента (`_all` – системный сегмент, обозначающий всех пользователей)
-* **`enabled`** - `"true"`/`"false"`, опционально, отключение сегмента (в примере ниже указано, как отключить системный сегмент `_all` и оставить отображение категории только для пользователей с сегментами выше)
-
-```xml
-<categories>
-    <category id="6323" picture="https://xxx/xxx/xxx.jpg" name="Смартфоны и гаджеты">
-        <segment id="test" />
-        <segment id="test2" />
-        <segment id="_all" enabled="false" />
-    </category>
 </categories> 
 ```
 
