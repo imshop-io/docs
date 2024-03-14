@@ -40,12 +40,14 @@
 * **`sizeGridImage`** - атрибут, URL-ссылка на картинку с размерами для примерки.
 
 ```xml
-</offer>
 <offer id="700996" available="true" uuid="a43c03a5-3d1d-5791-b9a5-1ef95438cd8e" group_id="111111">
 </offer>
 <offer id="998822" publishedOn="2014-11-12 00-00-00" available="true" group_id="222222" sizeGridImage="https://https://xxx.ru/upload/xxx.jpg">
 </offer>
 <offer id="898822" available="true" group_id="222222" sizeGridImage="https://https://xxx.ru/upload/xxx.jpg">
+</offer>
+<offer id="198820" available="true" fraction="5">
+</offer>
 ```
 
 #### **offers -> offer (дочерные элементы)**
@@ -120,6 +122,7 @@
 * **`reviews_count`** - количество отзывов для отображения в ячейке и на карточке товара сверху (не путать с [хуком отзывов на товары](../../../dopolnitelnye-integracii/kartochka-tovara/otzyvy-na-tovary.md)).
 * **`othercolors`**- блок товаров "еще в другом цвете", перечислить group Id товаров с альтернативными цветами. **Не используется вместе с parentVendorCode.**
 * **`parentVendorCode`** - по данному параметру объединяем товары для перелинковки (позволяет добавлять переключаемые параметры на карточку товара) **не должен пересекаться с group id, не используется вместе с othercolors**
+* **`showMultipleFractionsCounter`** - показывать для этого товара двойной пикер: один по единице измерения, который передан **`priceUnits`**, а второй пикер по упаковкам. **`fraction`** отвечает за количество единиц в упаковке, купить товар можно будет только по упаковкам (в разработке)
 * **`cashback` -** кол-во кэшбека
 
 Так же есть возможность показывать кэшбек в зависимости от **сегмента** пользователя.
@@ -172,6 +175,7 @@
 <picture>https://xxxx/xxxx/image2.jpg</picture>
 <useBonuses>true</useBonuses>
 <preorder>true</preorder>
+<showMultipleFractionsCounter>true</showMultipleFractionsCounter>
 <rating>4.5</rating>
 <reviews_count>130</reviews_count>
 <video main="true" image="https://xxxxxx">https://xxx.ru/xxx.mp4</video>
