@@ -87,7 +87,7 @@
 
 ```json
 {
-  "success": true,
+  "success": false,
   "error": "Неверный код"
 } 
 ```
