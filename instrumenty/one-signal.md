@@ -62,9 +62,19 @@
 
 Копируем только UID **(screen 9)**, получаем ключ 8db026d6-ae0a-11ec-9c44-ea1ef39683b1 . **Ключ уникален для каждого пользователя и при переустановке приложения он изменяется.**
 
-<figure><img src="../.gitbook/assets/Снимок экрана 2022-07-19 в 15.59.54.png" alt=""><figcaption><p><strong>(screen 10)</strong></p></figcaption></figure>
+В one signal переходим в разел Audience → Subscriptions находим строку поиска как на скрине ниже и выставляем такой же поиск.
 
-В one signal, Вкладка Audience → All Users в поисковую строку вставляем свой ключ и нажимаем ENTER на клавиатуре. Выдается одно устройство по запросу (модель телефона и версия устройства не соответствуют действительности), слева в меню выбираем пункт "Add to test Users" **(screen 10)**.
+<figure><img src="../.gitbook/assets/Снимок экрана 2024-05-23 в 13.24.23.png" alt=""><figcaption></figcaption></figure>
+
+Ранее полученный uuid вставляем в поле search
+
+**У полученного юзера проверяем что у него есть привязка к device с android/ios**
+
+<figure><img src="../.gitbook/assets/Снимок экрана 2024-05-23 в 13.26.05.png" alt=""><figcaption></figcaption></figure>
+
+Если есть добавляем юзера в тестовый сегмент
+
+<figure><img src="../.gitbook/assets/Снимок экрана 2024-05-23 в 13.26.37.png" alt=""><figcaption></figcaption></figure>
 
 ### Автоматические Push-уведомления
 
