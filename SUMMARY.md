@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Документация IMSHOP.IO](README.md)
+* [Лицензионное соглашение](api-license.md)
 
 ## Синхронизация каталога
 
@@ -45,14 +46,14 @@
     * [Персональные предложения](dopolnitelnye-integracii/kartochka-tovara/personalnye-predlozheniya.md)
     * [Трейд-маркетинг](dopolnitelnye-integracii/kartochka-tovara/treid-marketing.md)
   * [Корзина/Оформление заказа](dopolnitelnye-integracii/korzina-oformlenie-zakaza/README.md)
-    * [Эквайринг через webhook](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing-cherez-webhook/README.md)
-      * [Создание платежа по карте](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing-cherez-webhook/sozdanie-platezha-po-karte.md)
-      * [Apple pay](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing-cherez-webhook/apple-pay.md)
-      * [Google pay](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing-cherez-webhook/google-pay.md)
-      * [Проверка статуса оплаты (отдельный end point)](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing-cherez-webhook/proverka-statusa-oplaty-otdelnyi-end-point.md)
+    * [Эквайринг](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing/README.md)
+      * [Создание платежа по карте](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing/sozdanie-platezha-po-karte.md)
+      * [Apple pay](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing/apple-pay.md)
+      * [Google pay](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing/google-pay.md)
+      * [Проверка статуса оплаты (отдельный endpoint)](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing/proverka-statusa-oplaty-otdelnyi-endpoint.md)
     * [Расчет корзины, скидок, баллов](dopolnitelnye-integracii/korzina-oformlenie-zakaza/raschet-korziny-skidok-ballov.md)
     * [Информация о пвз](dopolnitelnye-integracii/korzina-oformlenie-zakaza/informaciya-o-pvz.md)
-    * [Дополнительные услуги для хука расчета корзины](dopolnitelnye-integracii/korzina-oformlenie-zakaza/dopolnitelnye-uslugi-dlya-khuka-rascheta-korziny.md)
+    * [Дополнительные услуги при расчете корзины](dopolnitelnye-integracii/korzina-oformlenie-zakaza/dopolnitelnye-uslugi-pri-raschete-korziny.md)
   * [Избранное](dopolnitelnye-integracii/izbrannoe/README.md)
     * [Синхронизация избранного с сайтом](dopolnitelnye-integracii/izbrannoe/sinkhronizaciya-izbrannogo-s-saitom.md)
   * [Профиль](dopolnitelnye-integracii/profil/README.md)

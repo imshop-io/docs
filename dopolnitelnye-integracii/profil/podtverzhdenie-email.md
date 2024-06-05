@@ -1,28 +1,28 @@
 # Подтверждение email
 
 {% hint style="danger" %}
-Мы работаем только через **POST**-запросы
+**IMSHOP Retail Protocol© (IRP)** является объектом интеллектуальной собственности ООО «АЙ ЭМ СОЛЮШНЗ» (Imshop) и защищён законом об авторском праве как ноу-хау. Использование Imshop Retail Protocol допустимо только при взаимодействии с ООО "АЙ ЭМ СОЛЮШНЗ" и наличии действующего лицензионного договора. Более подробно можно ознакомиться [здесь](../../api-license.md).
 {% endhint %}
 
 {% hint style="info" %}
-Перед тем как подключить хук подтверждения email, необходимо для хуков авторизации и получения профиля добавить поле `emailConfirmed`см.[obekt-uchyotnaya-zapis-polzovatelya.md](uchyotnaya-zapis-polzovatelya.-avtorizaciya./obekt-uchyotnaya-zapis-polzovatelya.md "mention")&#x20;
+Перед тем как подключить ендпоинт подтверждения email, необходимо для ендпоинтов авторизации и получения профиля добавить поле `emailConfirmed`см.[obekt-uchyotnaya-zapis-polzovatelya.md](uchyotnaya-zapis-polzovatelya.-avtorizaciya./obekt-uchyotnaya-zapis-polzovatelya.md "mention")&#x20;
 {% endhint %}
 
-## Описание хука "Подтверждение email"
+## Описание ендпоинта "Подтверждение email"
 
-После добавлении поля `emailConfirmed`, до подключения хука подтверждения email, **Профиль** клиента будет выглядеть следующим образом, если поле `emailConfirmed` имеет значение `false`.
+После добавлении поля `emailConfirmed`, до подключения ендпоинта подтверждения email, **Профиль** клиента будет выглядеть следующим образом, если поле `emailConfirmed` имеет значение `false`.
 
 <div align="center" data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="188"><figcaption><p>Неподтвержденный email без хука подтверждения</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt="" width="188"><figcaption><p>Неподтвержденный email без ендпоинта подтверждения</p></figcaption></figure>
 
 </div>
 
-После подключения хука бэйдж будет автоматически заменен на кнопку, отправляющую с бекенда imshop запрос на адрес хука (подробнее в описании запроса). Выглядит следующим образом
+После подключения ендпоинта бэйдж будет автоматически заменен на кнопку, отправляющую с бекенда imshop запрос на адрес ендпоинта (подробнее в описании запроса). Выглядит следующим образом
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt="" width="188"><figcaption><p>Неподтвержденный email с подключенным хуком подтверждения</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt="" width="188"><figcaption><p>Неподтвержденный email с подключенным ендпоинтом подтверждения</p></figcaption></figure>
 
-После пользователем совершения действий для подтверждения и получения в хуке профиля значения поля `emailConfirmed` информация о статусе email исчезнет из профиля и пользователь увидит следующее
+После пользователем совершения действий для подтверждения и получения в ендпоинте профиля значения поля `emailConfirmed` информация о статусе email исчезнет из профиля и пользователь увидит следующее
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt="" width="188"><figcaption><p>Подтвержденный email</p></figcaption></figure>
 
