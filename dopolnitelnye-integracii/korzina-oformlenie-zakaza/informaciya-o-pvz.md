@@ -126,7 +126,7 @@ IMSHOP Retail Protocol создан по заказу ООО «АЙ ЭМ СОЛ�
         "price": 150,
         "preDiscountPrice": 200,
         "quantity": 0
-      },
+      }
     ]
 }
 ```
