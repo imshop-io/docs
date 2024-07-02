@@ -76,7 +76,9 @@ IMSHOP Retail Protocol создан по заказу ООО «АЙ ЭМ СОЛ�
                 "trackingUrl": "https://www.cdek.ru/ru/tracking?order_id=1234567890",
                 "deliveryDateISO": "2022-09-26T08:12:32.940Z",
                 "courierPhone": "79112223344",
-                "courierName": "Крутой доставщик"
+                "courierName": "Крутой доставщик",
+                "storageDateDeadline": "2021-03-15",
+                "canExtendStorageTime": true
             },
             "publicPaymentDetails": {
                 "paid": true,
@@ -131,6 +133,8 @@ IMSHOP Retail Protocol создан по заказу ООО «АЙ ЭМ СОЛ�
   * **`deliveryDateISO`** - опционально, "2022-09-26T08:12:32.940Z" время в формате date time iso, например moment().toISOString()
   * **`courierPhone`** - опционально, Номер телефона доставщика
   * **`courierName`** - опционально, Имя доставщика
+  * **`storageDateDeadline`** - опционально, срок хранения в формате `YYYY-MM-DD`
+  * **`canExtendStorageTime`** - можно ли продлить срок хранения
 * **`publicPaymentDetails`** - детали оплаты
   * **`paid`** - true если заказ оплачен
   * **`paymentComment`** - коментарий к платежу
