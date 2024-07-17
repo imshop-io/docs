@@ -161,6 +161,7 @@
 
 ```xml
 <offer id="998822" available="true" group_id="222222">
+<guid configurationId="998822">819bc1b1-af54-4317-bbff-5fb476ffcb12#123eeb8f-f19e-4ba3-a423-c1cc9e50a23b</guid>
 <barcode>4627077842287</barcode>
 <name>Ботинки кожаные</name>
 <url>https://xxx.ru/xxx./</url>
@@ -173,7 +174,6 @@
 <priceUnits>м²</priceUnits>
 <currencyId>RUB</currencyId>
 <saleEndsDateIso>2020-11-22T14:37:38</saleEndsDateIso>
-<guid>241921</guid>
 <vendor>BrandName</vendor>
 <vendorCode>0000-667838</vendorCode>
 <categoryId>1728</categoryId>
