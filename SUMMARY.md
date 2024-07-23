@@ -65,6 +65,7 @@
         * [Отправка смс кода без регистрации](dopolnitelnye-integracii/profil/uchyotnaya-zapis-polzovatelya.-avtorizaciya./redaktirovanie-dannykh-uchyotnoi-zapisi/otpravka-sms-koda-bez-registracii.md)
       * [Удаление пользовательских данных](dopolnitelnye-integracii/profil/uchyotnaya-zapis-polzovatelya.-avtorizaciya./udalenie-polzovatelskikh-dannykh.md)
       * [Подписка/отписка на рассылки](dopolnitelnye-integracii/profil/uchyotnaya-zapis-polzovatelya.-avtorizaciya./podpiska-otpiska-na-rassylki.md)
+      * [Карта магазинов](dopolnitelnye-integracii/profil/uchyotnaya-zapis-polzovatelya.-avtorizaciya./karta-magazinov.md)
     * [История заказов](dopolnitelnye-integracii/profil/istoriya-zakazov.md)
     * [Оценка качества обслуживания](dopolnitelnye-integracii/profil/ocenka-kachestva-obsluzhivaniya.md)
     * [Отправка уведомлений пользователям](dopolnitelnye-integracii/profil/otpravka-uvedomlenii-polzovatelyam.md)
