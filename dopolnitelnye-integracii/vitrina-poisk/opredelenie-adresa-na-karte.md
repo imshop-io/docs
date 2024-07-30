@@ -30,42 +30,52 @@ IMSHOP Retail Protocol создан по заказу ООО «АЙ ЭМ СОЛ�
 
 ```json
 {
-	"coords": {
-		"latitude": "55.820189166725015",
-		"longitude": "37.62089263647795"
-	},
-	"address": {
-		"location": {
-			"city": "Москва",
-			"cityWithType": "г Москва",
-			"region": "Москва",
-			"regionWithType": "г Москва",
-			"cityFiasId": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
-			"regionFiasId": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
-			"streetFiasId": "08617e6d-911e-4cb3-b8cb-351b87f5b8d8",
-			"houseFiasId": "1a76c1db-43ef-4a3c-80ff-2a4126fac38e",
-			"regionKladrId": "7700000000000",
-			"cityKladrId": "7700000000000",
-			"streetKladrId": "77000000000076300",
-			"houseKladrId": "7700000000007630033",
-			"street": "Аргуновская",
-			"streetWithType": "ул Аргуновская",
-			"streetType": "ул",
-			"house": "18",
-			"lat": "55.819965",
-			"lon": "37.62157",
-			"federalDistrict": "Центральный",
-			"fiasId": "1a76c1db-43ef-4a3c-80ff-2a4126fac38e",
-			"kladrId": "7700000000007630033",
-			"postalCode": "129075",
-			"valueCity": "г Москва",
-			"valueCityFull": "г Москва",
-			"valueAddress": "г Москва, ул Аргуновская, д 18",
-			"valueAddressFull": "г Москва, ул Аргуновская, д 18",
-			"beltwayHit": "IN_MKAD",
-			"capitalMarker": "0"
-		}
-	}
+          "country": "RU",
+          "coords": {
+            "latitude": "55.75407485208535",
+            "longitude": "37.62039307504892"
+          },
+          "city": "Москва",
+          "address": "",
+          "userData": {},
+          "addressData": {
+            "beltwayHit": null,
+            "fias_code": null,
+            "settlementKladr": null,
+            "cityKladr": "7700000000000",
+            "kladr": "7700000000015750011",
+            "value": "г Москва, Красная пл, д 9",
+            "building": null,
+            "streetKladr": "77000000000157500",
+            "regionKladr": "7700000000000",
+            "areaKladr": null,
+            "area": null,
+            "fias": "b385b772-74f9-4743-924f-878d9b32bd7d",
+            "house": "9",
+            "street": "Красная",
+            "streetFias": "8e39d017-db1c-413f-ae77-5f0d3b9e7ee9",
+            "settlementWithType": null,
+            "beltwayDistance": null,
+            "settlement": null,
+            "houseKladr": "7700000000015750011",
+            "fiasCode": null,
+            "lon": "37.6198822",
+            "houseFias": "b385b772-74f9-4743-924f-878d9b32bd7d",
+            "lat": "55.7536639",
+            "fias_id": "b385b772-74f9-4743-924f-878d9b32bd7d",
+            "settlementFias": null,
+            "areaFias": null,
+            "zip": "109012",
+            "apt": null,
+            "city": "Москва",
+            "region": "Москва",
+            "regionFias": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5",
+            "city_kladr": "7700000000000",
+            "cityFias": "0c5b2444-70a0-4932-980c-b4dc0d3f02b5"
+          },
+          "installId": "00650000-0008-0000-ac5d-e021b623c9b7",
+          "externalUserId": "72fc0000-f564-400d-a00e-000000a0409f"
+        }
 ```
 
 ### Описание формата
