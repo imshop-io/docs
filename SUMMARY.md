@@ -96,6 +96,7 @@
   * [Расчет корзины, скидок, баллов](digital-store-solution-prilozhenie-prodavca/integracii/raschet-korziny-skidok-ballov.md)
   * [Найти покупателя](digital-store-solution-prilozhenie-prodavca/integracii/naiti-pokupatelya.md)
   * [Редактировать данные учетной записи Покупателя](digital-store-solution-prilozhenie-prodavca/integracii/redaktirovat-dannye-uchetnoi-zapisi-pokupatelya.md)
+  * [Рейтинг продавцов (в разработке)](digital-store-solution-prilozhenie-prodavca/integracii/reiting-prodavcov-v-razrabotke.md)
 
 ## Примерочные
 
