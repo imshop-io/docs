@@ -65,7 +65,7 @@
 * **pickup\_location\_selection\_started** - получен список локаций пвз
 * **product\_photo\_swiped** - юзер свайпает фото на карточке товара
 * **promocode\_active** - применен промокод
-* **profile\_button\_clicked** - пользователь переходит на экран профиля
+* **profile\_button\_clicked** - пользователь кликает по кнопке экрана профиля
 * **purchase** - покупка
 * **push\_notification\_opened** - открыт пуш
 * **registration\_authorization** - авторизация юзера (вход в свой аккаунт)
