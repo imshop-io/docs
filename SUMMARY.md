@@ -61,6 +61,7 @@
     * [Учётная запись пользователя. Авторизация.](dopolnitelnye-integracii/profil/uchyotnaya-zapis-polzovatelya.-avtorizaciya./README.md)
       * [Объект «Учётная запись пользователя»](dopolnitelnye-integracii/profil/uchyotnaya-zapis-polzovatelya.-avtorizaciya./obekt-uchyotnaya-zapis-polzovatelya.md)
       * [Авторизация по номеру телефона + SMS](dopolnitelnye-integracii/profil/uchyotnaya-zapis-polzovatelya.-avtorizaciya./avtorizaciya-po-nomeru-telefona-+-sms.md)
+      * [Авторизация в телеграм-приложении](dopolnitelnye-integracii/profil/uchyotnaya-zapis-polzovatelya.-avtorizaciya./avtorizaciya-v-telegram-prilozhenii.md)
       * [Получение данных учётной записи](dopolnitelnye-integracii/profil/uchyotnaya-zapis-polzovatelya.-avtorizaciya./poluchenie-dannykh-uchyotnoi-zapisi.md)
       * [Редактирование данных учётной записи](dopolnitelnye-integracii/profil/uchyotnaya-zapis-polzovatelya.-avtorizaciya./redaktirovanie-dannykh-uchyotnoi-zapisi/README.md)
         * [Отправка смс кода без регистрации](dopolnitelnye-integracii/profil/uchyotnaya-zapis-polzovatelya.-avtorizaciya./redaktirovanie-dannykh-uchyotnoi-zapisi/otpravka-sms-koda-bez-registracii.md)
