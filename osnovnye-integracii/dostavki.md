@@ -139,9 +139,11 @@ IMSHOP.IO передаёт состав корзины, город (и стра�
   * **`settlementWithType`** — улица с типом
   * **`fias_id`** — [ФИАС](https://www.alta.ru/fias)-код адреса (идентификатор адреса)
 
-### Маркетинговые акции
+### Маркетинговые акции, активированные в корзине
 
-Описание формата приведено в разделе [Список "Маркетинговые акции"](../dopolnitelnye-integracii/korzina-oformlenie-zakaza/raschet-korziny-skidok-ballov/spisok-marketingovye-akcii.md#format-zaprosa-posle-vybora-akcii)
+{% hint style="danger" %}
+Доп. поле **`promoGroup`** передаётся в запрос списка доставок. Описание формата приведено в разделе [Список "Маркетинговые акции"](../dopolnitelnye-integracii/korzina-oformlenie-zakaza/raschet-korziny-skidok-ballov/spisok-marketingovye-akcii.md#format-zaprosa-posle-vybora-akcii)
+{% endhint %}
 
 {% hint style="info" %}
 Для маркетплейсов.
