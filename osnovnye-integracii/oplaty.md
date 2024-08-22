@@ -60,7 +60,10 @@ IMSHOP Retail Protocol создан по заказу ООО «АЙ ЭМ СОЛ�
   * **`configurationId`** — идентификатор товарного предложения в системе клиента (идентификатор из фида)
   * **`privateId`** — идентификатор товара в системе клиента (`group_id` из фида)
   * **`quantity`** — количество
-* **`promoGroup`** — (опционально) см. раздел [Список "Маркетинговые акции"](../dopolnitelnye-integracii/korzina-oformlenie-zakaza/raschet-korziny-skidok-ballov/spisok-marketingovye-akcii.md)
+
+### Маркетинговые акции
+
+Описание формата приведено в разделе [Список "Маркетинговые акции"](../dopolnitelnye-integracii/korzina-oformlenie-zakaza/raschet-korziny-skidok-ballov/spisok-marketingovye-akcii.md#format-zaprosa-posle-vybora-akcii)
 
 {% hint style="info" %}
 Для маркетплейсов.
