@@ -150,7 +150,7 @@ IMSHOP.IO позволяет при помощи webhook подключить у
 * **`promoGroup`** — (опционально) выбранная пользователем акция
 
 {% hint style="info" %}
-см. раздел [Список "Маркетинговые акции"](spisok-marketingovye-akcii.md)
+см. раздел [Список "Маркетинговые акции"](spisok-marketingovye-akcii.md#format-zaprosa-posle-vybora-akcii)
 {% endhint %}
 
 * **`installId`** - идентификатор установки приложения
