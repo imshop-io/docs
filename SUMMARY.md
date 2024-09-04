@@ -124,6 +124,7 @@
     * [На экран с товарами (без категорий), согласно фиду](instrumenty/console-imshop/konstruktor-ssylok-sozdanie-deeplink/na-ekran-s-tovarami-bez-kategorii-soglasno-fidu.md)
     * [На товар](instrumenty/console-imshop/konstruktor-ssylok-sozdanie-deeplink/na-tovar.md)
     * [Умный deeplink](instrumenty/console-imshop/konstruktor-ssylok-sozdanie-deeplink/umnyi-deeplink.md)
+  * [Telegram-модуль](instrumenty/console-imshop/telegram-modul.md)
 
 ## Дизайн приложения
 
