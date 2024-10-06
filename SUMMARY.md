@@ -16,6 +16,7 @@
 ## Интеграции (API/WEBHOOK)
 
 * [Общая информация о подключении интеграций](integracii-api-webhook/obshaya-informaciya-o-podklyuchenii-integracii.md)
+* [🍪 Сессии и Cookies. Отличие нативного приложения от веб](integracii-api-webhook/sessii-i-cookies.-otlichie-nativnogo-prilozheniya-ot-veb.md)
 
 ***
 
