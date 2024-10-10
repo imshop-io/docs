@@ -238,3 +238,62 @@
 <category id="brands_679458" parentId="brands_6798" picture="https://xxx.ru/xxx.jpg">>Anita</category>
 ...
 ```
+
+
+
+### Перелинковка товаров
+
+Перелинковка на карточке товара позволяет отобразить параметры на выбор юзера по клику на которые юзер переходит на подходящую конфигурацию товара.
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/IMAGE 2024-10-10 114633.jpg" alt="" width="296"><figcaption></figcaption></figure>
+
+</div>
+
+* interlinkingParam - название параметра по которому происходит линковка (цвет, памят, жесткость)
+* value - значение конфигурации которое выбирает юзер, если есть color то выводится в виде цветного кружка
+* groupID - id конфигурации на которую линкуем пользователя, может быть передан groupID или id товара.
+
+{% hint style="warning" %}
+Товары между которыми происходит линк не могут быть в одной группе товаров
+{% endhint %}
+
+```xml
+<offer available="true" publishedOn="2018-09-12" id="1033089" group_id="31063-FEF5EC" itemPreviewUrl="https://webgl.elarbis.com/viewer/index.html?vendor=askona&amp;model=gracia_krovat_160_s_pm" fraction="1">
+        <name>Кровать с подъемным механизмом Gracia</name>
+        <vendor>Askona</vendor>
+        <typePrefix>Кровать с подъемным механизмом</typePrefix>
+        <sort>1</sort>
+        <categoryId>1860669</categoryId>
+        <picture>https://cdn.askona.ru/upload/resize_cache/feed_images/400x225/krovati_gracia-pm_graciaa.webp</picture>
+        <currencyId>RUR</currencyId>
+        <description>Благородство и статус, нежность и романтичность   вот, что сочетает в себе новая кровать Грация от Askona  Модель, выполненная в классическом стиле, имеет самый высокий периметр (39 см) среди остальных моделей нашего ассортимента, что добавляет ей величия  Высокая спинка кровати с мягкими утяжками обрамлена массивной фигурной рамой, которая буквально притягивает взгляд, подчеркивая изысканный стиль комнаты  Возможность выбора расцветки обивочного материала дает простор фантазии для оформления Вашей спальни  Комплектация решеткой или подъемным механизмом  Высота спинки   151 см</description>
+        <rating>5</rating>
+        <reviews_count>3</reviews_count>
+        <model>Gracia</model>
+        <othercolors>31063-989CA3,31063-FFC0CB,31063-D9D7D8,31063-FFE2C2,31063-0529DC,31063-79DBFF,31063-CC9933,31063-854629,31063-21929E,31063-CC061D,31063-19904B,31063-A162A1</othercolors>
+        <price>101972</price>
+        <oldprice>196100</oldprice>
+        <param name="Цвет">Белый</param>
+        <param name="Размер спального места" unit="см">200x200</param>
+        <param name="Тип ткани">Велюр</param>
+        <interlinking>
+          <interlinkingParam name="Цвет">
+            <interlinkingParamValue value="Белый" groupId="31063-FEF5EC" color="#FEF5EC"/>
+            <interlinkingParamValue value="Темно-серый" groupId="31063-989CA3" color="#989CA3"/>
+            <interlinkingParamValue value="Розовый" groupId="31063-FFC0CB" color="#FFC0CB"/>
+            <interlinkingParamValue value="Светло-серый" groupId="31063-D9D7D8" color="#D9D7D8"/>
+            <interlinkingParamValue value="Бежевый" groupId="31063-FFE2C2" color="#FFE2C2"/>
+            <interlinkingParamValue value="Синий" groupId="31063-0529DC" color="#0529DC"/>
+            <interlinkingParamValue value="Голубой" groupId="31063-79DBFF" color="#79DBFF"/>
+            <interlinkingParamValue value="Желтый" groupId="31063-CC9933" color="#CC9933"/>
+            <interlinkingParamValue value="Коричневый" groupId="31063-854629" color="#854629"/>
+            <interlinkingParamValue value="Бирюзовый" groupId="31063-21929E" color="#21929E"/>
+            <interlinkingParamValue value="Красный" groupId="31063-CC061D" color="#CC061D"/>
+            <interlinkingParamValue value="Зеленый" groupId="31063-19904B" color="#19904B"/>
+            <interlinkingParamValue value="Сиреневый" groupId="31063-A162A1" color="#A162A1"/>
+          </interlinkingParam>
+        </interlinking>
+      </offer>
+```
