@@ -26,7 +26,7 @@
 
 * Далее **добавим товары**, подходящие под условия акции (не более 20). Товары записываем в столбик как на **(screen 3)**, или через запятую
 
-<figure><img src="../../../.gitbook/assets/Снимок экрана 2022-11-16 в 11.56.59.png" alt=""><figcaption><p><strong>(screen 3)</strong><br><strong></strong></p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Снимок экрана 2022-11-16 в 11.56.59.png" alt=""><figcaption><p><strong>(screen 3)</strong><br></p></figcaption></figure>
 
 Пример наполненного баннера с вышеуказанными полями **(video 3).**
 
@@ -51,7 +51,7 @@
 <figure><img src="../../../.gitbook/assets/Снимок экрана 2022-11-18 в 13.58.09.png" alt=""><figcaption><p><strong>(screen 6)</strong></p></figcaption></figure>
 
 * Добавляем **"Форму"** обратной связи, на **(screen 7,8,9)** мы рассмотрим пример заполнения всех полей формы, создаваемой вручную.
-  * Если в вашем приложении реализован [**webhook Форм**](../../../dopolnitelnye-integracii/vitrina-poisk/formy.md), то заполняем только первую часть, не добавляя кнопок. **Обязательно** указывается корректный **Код формы для выгрузки** проставляется галочка **Загружать форму по вебхуку**.
+  * Если в вашем приложении реализован [**webhook Форм**](../../../dopolnitelnye-integracii/vitrina-poisk/formy/), то заполняем только первую часть, не добавляя кнопок. **Обязательно** указывается корректный **Код формы для выгрузки** проставляется галочка **Загружать форму по вебхуку**.
 
 <figure><img src="../../../.gitbook/assets/imgonline-com-ua-2to1-wpwVxpaOryGYg.jpg" alt=""><figcaption><p><strong>(screen 7)</strong></p></figcaption></figure>
 
