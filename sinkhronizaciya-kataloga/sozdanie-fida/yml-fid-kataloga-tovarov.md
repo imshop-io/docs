@@ -38,6 +38,7 @@
 * **`group_id`** - атрибут, элемент объединяет все предложения, которые являются вариациями одной модели и должен иметь одинаковое значение. Это идентификатор карточки товара в каталоге.
 * **`uuid`** - атрибут, дополнительный идентификатор товара (например, из 1С).
 * **`sizeGridImage`** - атрибут, URL-ссылка на картинку с размерами для примерки.
+* **`group_id_guid`** - атрибут, необходимый при прямой интеграции mindbox, guid товарной группы.
 
 ```xml
 <offer id="700996" available="true" uuid="a43c03a5-3d1d-5791-b9a5-1ef95438cd8e" group_id="111111">
@@ -46,7 +47,7 @@
 </offer>
 <offer id="898822" available="true" group_id="222222" sizeGridImage="https://https://xxx.ru/upload/xxx.jpg">
 </offer>
-<offer id="198820" available="true" fraction="5">
+<offer id="198820" available="true" fraction="5" group_id_guid="test_guid">
 </offer>
 ```
 
@@ -161,7 +162,7 @@
 
 ```xml
 <offer id="998822" available="true" group_id="222222">
-<guid configurationId="998822">819bc1b1-af54-4317-bbff-5fb476ffcb12#123eeb8f-f19e-4ba3-a423-c1cc9e50a23b</guid>
+<guid>819bc1b1-af54-4317-bbff-5fb476ffcb12#123eeb8f-f19e-4ba3-a423-c1cc9e50a23b</guid>
 <barcode>4627077842287</barcode>
 <name>Ботинки кожаные</name>
 <url>https://xxx.ru/xxx./</url>
