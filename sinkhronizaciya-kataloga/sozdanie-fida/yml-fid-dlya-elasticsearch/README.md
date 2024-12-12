@@ -245,15 +245,14 @@
 
 Перелинковка на карточке товара позволяет отобразить параметры на выбор юзера по клику на которые юзер переходит на подходящую конфигурацию товара.
 
-<div align="left">
+<div align="left"><figure><img src="../../../.gitbook/assets/IMAGE 2024-10-10 114633.jpg" alt="" width="296"><figcaption></figcaption></figure></div>
 
-<figure><img src="../../../.gitbook/assets/IMAGE 2024-10-10 114633.jpg" alt="" width="296"><figcaption></figcaption></figure>
-
-</div>
-
-* interlinkingParam - название параметра по которому происходит линковка (цвет, памят, жесткость)
-* value - значение конфигурации которое выбирает юзер, если есть color то выводится в виде цветного кружка
-* groupID - id конфигурации на которую линкуем пользователя, может быть передан groupID или id товара.
+* `interlinksParam` - название параметра по которому происходит линковка (цвет, памят, жесткость) (ранее `interlinkingParam`)
+  * `value` - текст на кнопке перелинковки, если есть color
+  * `hex` - Для параметров, отвечающих за цвет здесь передается hex цвета (например `#FF0000` для красного цвета). Если передан hex, то кнопка будет отображаться в виде кружочка с заливкой. Текст из value не показывается.
+  * `patternUrl` - Для параметров, отражающих текстуру, материал итд (которые не могут быть описаны через заливку цветом `hex`) здесь передается https ссылка на картику с текстурой. Размер картинки например 200х200. Если `patternUrl` задан`,` кнопка выводится в виде кружочка с текстурой, `value` и `hex` не выводятся / неиспользуются
+  * `groupId` - id карточки товара (group\_id из фида) на которую перейдет покупатель при нажатии на эту кнопку
+  * `alternative` - `true` или `false`. Необходимо передать true, если кнопка перекинет покупателя на товар из друго модельного ряда / семейства (например в случае отсутствия в наличии такого варианта товара в рамках текущей модели). Такая кнопка кнопка будет выделена пунктиром, чтобы покупатель понимал, что окажется на товаре другой модели
 
 {% hint style="warning" %}
 Товары между которыми происходит линк не могут быть в одной группе товаров
@@ -278,22 +277,22 @@
         <param name="Цвет">Белый</param>
         <param name="Размер спального места" unit="см">200x200</param>
         <param name="Тип ткани">Велюр</param>
-        <interlinking>
-          <interlinkingParam name="Цвет">
-            <interlinkingParamValue value="Белый" groupId="31063-FEF5EC" color="#FEF5EC"/>
-            <interlinkingParamValue value="Темно-серый" groupId="31063-989CA3" color="#989CA3"/>
-            <interlinkingParamValue value="Розовый" groupId="31063-FFC0CB" color="#FFC0CB"/>
-            <interlinkingParamValue value="Светло-серый" groupId="31063-D9D7D8" color="#D9D7D8"/>
-            <interlinkingParamValue value="Бежевый" groupId="31063-FFE2C2" color="#FFE2C2"/>
-            <interlinkingParamValue value="Синий" groupId="31063-0529DC" color="#0529DC"/>
-            <interlinkingParamValue value="Голубой" groupId="31063-79DBFF" color="#79DBFF"/>
-            <interlinkingParamValue value="Желтый" groupId="31063-CC9933" color="#CC9933"/>
-            <interlinkingParamValue value="Коричневый" groupId="31063-854629" color="#854629"/>
-            <interlinkingParamValue value="Бирюзовый" groupId="31063-21929E" color="#21929E"/>
-            <interlinkingParamValue value="Красный" groupId="31063-CC061D" color="#CC061D"/>
-            <interlinkingParamValue value="Зеленый" groupId="31063-19904B" color="#19904B"/>
-            <interlinkingParamValue value="Сиреневый" groupId="31063-A162A1" color="#A162A1"/>
-          </interlinkingParam>
-        </interlinking>
+        <interlinks>
+          <interlinksParam name="Цвет">
+            <interlinksParamValue value="Белый" groupId="31063-FEF5EC" hex="#FEF5EC" />
+            <interlinksParamValue value="Темно-серый" groupId="31063-989CA3" textureUrh="https://something.com/assets/polkka-dot.jpg" />
+            <interlinksParamValue value="Розовый" groupId="31063-FFC0CB" hex="#FFC0CB" alternative="true" />
+            <interlinksParamValue value="Светло-серый" groupId="31063-D9D7D8" hex="#D9D7D8" />
+            <interlinksParamValue value="Бежевый" groupId="31063-FFE2C2" hex="#FFE2C2" />
+            <interlinksParamValue value="Синий" groupId="31063-0529DC" hex="#0529DC" />
+            <interlinksParamValue value="Голубой" groupId="31063-79DBFF" hex="#79DBFF" />
+            <interlinksParamValue value="Желтый" groupId="31063-CC9933" hex="#CC9933" />
+            <interlinksParamValue value="Коричневый" groupId="31063-854629" hex="#854629" />
+            <interlinksParamValue value="Бирюзовый" groupId="31063-21929E" hex="#21929E" />
+            <interlinksParamValue value="Красный" groupId="31063-CC061D" hex="#CC061D" />
+            <interlinksParamValue value="Зеленый" groupId="31063-19904B" hex="#19904B" />
+            <interlinksParamValue value="Сиреневый" groupId="31063-A162A1" hex="#A162A1" />
+          </interlinksParam>
+        </interlinks>
       </offer>
 ```
