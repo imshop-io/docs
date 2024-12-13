@@ -54,7 +54,6 @@
       * [Google pay](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing/google-pay.md)
       * [Проверка статуса оплаты (отдельный endpoint)](dopolnitelnye-integracii/korzina-oformlenie-zakaza/ekvairing/proverka-statusa-oplaty-otdelnyi-endpoint.md)
     * [Расчет корзины, скидок, баллов](dopolnitelnye-integracii/korzina-oformlenie-zakaza/raschet-korziny-skidok-ballov/README.md)
-      * [Карусель промокодов в корзину](dopolnitelnye-integracii/korzina-oformlenie-zakaza/raschet-korziny-skidok-ballov/karusel-promokodov-v-korzinu.md)
       * [Список «Маркетинговые акции»](dopolnitelnye-integracii/korzina-oformlenie-zakaza/raschet-korziny-skidok-ballov/spisok-marketingovye-akcii.md)
     * [Информация о пвз](dopolnitelnye-integracii/korzina-oformlenie-zakaza/informaciya-o-pvz.md)
     * [Дополнительные услуги при расчете корзины](dopolnitelnye-integracii/korzina-oformlenie-zakaza/dopolnitelnye-uslugi-pri-raschete-korziny.md)
