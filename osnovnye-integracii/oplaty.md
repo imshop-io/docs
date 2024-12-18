@@ -159,8 +159,8 @@ iconId — идентификатор встроенной в приложени
 \
 Одностраничный чекаут:
 
-![](<../.gitbook/assets/Simulator Screenshot - iPhone 16 Pro Max - 2024-12-18 at 13.18.13.png>)\
-\
+<div><figure><img src="../.gitbook/assets/Simulator Screenshot - iPhone 16 Pro Max - 2024-12-18 at 13.18.13.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Simulator Screenshot - iPhone 16 Pro Max - 2024-12-18 at 13.23.44.png" alt=""><figcaption></figcaption></figure></div>
+
 Классический чекаут:
 
 <div><figure><img src="../.gitbook/assets/Simulator Screenshot - iPhone 16 Pro Max - 2024-12-18 at 13.20.17.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/Simulator Screenshot - iPhone 16 Pro Max - 2024-12-18 at 13.20.23.png" alt=""><figcaption></figcaption></figure></div>
