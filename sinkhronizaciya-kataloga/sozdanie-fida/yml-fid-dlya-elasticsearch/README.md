@@ -280,22 +280,22 @@
         <param name="Цвет">Белый</param>
         <param name="Размер спального места" unit="см">200x200</param>
         <param name="Тип ткани">Велюр</param>
-        <interlinks>
-          <interlinksParam name="Цвет">
-            <interlinksParamValue value="Белый" groupId="31063-FEF5EC" hex="#FEF5EC" />
-            <interlinksParamValue value="Темно-серый" groupId="31063-989CA3" textureUrh="https://something.com/assets/polkka-dot.jpg" />
-            <interlinksParamValue value="Розовый" groupId="31063-FFC0CB" hex="#FFC0CB" type="unavailable" />
-            <interlinksParamValue value="Светло-серый" groupId="31063-D9D7D8" hex="#D9D7D8" />
-            <interlinksParamValue value="Бежевый" groupId="31063-FFE2C2" hex="#FFE2C2" />
-            <interlinksParamValue value="Синий" groupId="31063-0529DC" hex="#0529DC" />
-            <interlinksParamValue value="Голубой" groupId="31063-79DBFF" hex="#79DBFF" />
-            <interlinksParamValue value="Желтый" groupId="31063-CC9933" hex="#CC9933" />
-            <interlinksParamValue value="Коричневый" groupId="31063-854629" hex="#854629" />
-            <interlinksParamValue value="Бирюзовый" groupId="31063-21929E" hex="#21929E" />
-            <interlinksParamValue value="Красный" groupId="31063-CC061D" hex="#CC061D" />
-            <interlinksParamValue value="Зеленый" groupId="31063-19904B" hex="#19904B" />
-            <interlinksParamValue value="Сиреневый" groupId="31063-A162A1" hex="#A162A1" />
-          </interlinksParam>
-        </interlinks>
+        <groupIdLinks>
+          <groupIdLinksParam name="Цвет">
+            <groupIdLink value="Белый" groupId="31063-FEF5EC" hex="#FEF5EC" />
+            <groupIdLink value="Темно-серый" groupId="31063-989CA3" textureUrh="https://something.com/assets/polkka-dot.jpg" />
+            <groupIdLink value="Розовый" groupId="31063-FFC0CB" hex="#FFC0CB" type="unavailable" />
+            <groupIdLink value="Светло-серый" groupId="31063-D9D7D8" hex="#D9D7D8" />
+            <groupIdLink value="Бежевый" groupId="31063-FFE2C2" hex="#FFE2C2" />
+            <groupIdLink value="Синий" groupId="31063-0529DC" hex="#0529DC" />
+            <groupIdLink value="Голубой" groupId="31063-79DBFF" hex="#79DBFF" />
+            <groupIdLink value="Желтый" groupId="31063-CC9933" hex="#CC9933" />
+            <groupIdLink value="Коричневый" groupId="31063-854629" hex="#854629" />
+            <groupIdLink value="Бирюзовый" groupId="31063-21929E" hex="#21929E" />
+            <groupIdLink value="Красный" groupId="31063-CC061D" hex="#CC061D" />
+            <groupIdLink value="Зеленый" groupId="31063-19904B" hex="#19904B" />
+            <groupIdLink value="Сиреневый" groupId="31063-A162A1" hex="#A162A1" />
+          </groupIdLinksParam>
+        </groupIdLinks>
       </offer>
 ```
