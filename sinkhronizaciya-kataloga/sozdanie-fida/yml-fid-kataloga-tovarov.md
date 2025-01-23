@@ -1,10 +1,14 @@
+---
+icon: file-xml
+---
+
 # YML (фид каталога товаров)
 
 ## Описание дополнений формата от IMSHOP.IO и примеры
 
 ### Общая структура фида (пример)
 
-```markup
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <yml_catalog date="2017-02-05 17:22">
   <shop>

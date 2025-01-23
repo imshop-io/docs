@@ -1,3 +1,7 @@
+---
+icon: code-simple
+---
+
 # Разработка нативных модулей
 
 {% hint style="danger" %}

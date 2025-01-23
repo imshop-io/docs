@@ -1,3 +1,7 @@
+---
+icon: box-taped
+---
+
 # Фид наличия для ElasticSearch
 
 ## Описание

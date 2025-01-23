@@ -1,3 +1,7 @@
+---
+icon: bars-sort
+---
+
 # Кастомные сортировки
 
 ## Дополнительные сортировки в приложении
@@ -17,7 +21,7 @@
 
 **`customSort`** - дополнительная (custom) сортировка. необходимо передать тип из **`sortDefinitions`**
 
-```markup
+```xml
 <sortDefinitions>
   <sortDefinition type="home" direction="asc" main="true" hidden="true">Главный экран</sortDefinition>
   <sortDefinition type="popular" direction="asc">По популярности</sortDefinition>
@@ -45,7 +49,7 @@
 
 Для этого для товара в фиде надо передать&#x20;
 
-```markup
+```xml
 <offers>
   <offer id="61b06345-c404-11e0-ad14-3c4a926c6ba4" available="true" uuid="a43c03a5-3d1d-5791-b9a5-1ef95438cd8e" group_id="6" sizeGridImage="">
     <sort>2</sort>

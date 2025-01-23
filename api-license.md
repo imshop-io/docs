@@ -1,5 +1,6 @@
 ---
 description: Лицензионное соглашение и условия использования IMSHOP Retail Protocol ©
+icon: scale-balanced
 ---
 
 # Лицензионное соглашение

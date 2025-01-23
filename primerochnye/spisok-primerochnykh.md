@@ -1,3 +1,7 @@
+---
+icon: list-ol
+---
+
 # Список примерочных
 
 {% hint style="danger" %}

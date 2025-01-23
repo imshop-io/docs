@@ -1,3 +1,7 @@
+---
+icon: rotate-exclamation
+---
+
 # Синхронизация статусов заказов
 
 {% hint style="danger" %}

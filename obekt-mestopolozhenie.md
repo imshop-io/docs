@@ -1,3 +1,7 @@
+---
+icon: location-dot
+---
+
 # Объект «Местоположение»
 
 {% hint style="danger" %}

@@ -1,3 +1,7 @@
+---
+icon: truck
+---
+
 # Доставки
 
 {% hint style="danger" %}

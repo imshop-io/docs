@@ -1,3 +1,7 @@
+---
+icon: earth-africa
+---
+
 # Передача наличия и цен по регионам, персональные цены, cashback
 
 {% hint style="danger" %}
@@ -50,7 +54,7 @@
 В данном примере товар доступен везде, кроме Москвы и Московской области.\
 Цена товара 400 руб во Владимирской области, и 450 рублей в остальных регионах.
 
-```markup
+```xml
 <offer id="61b06345-c404-11e0-ad14-3c4a926c6ba4" available="true" uuid="a43c03a5-3d1d-5791-b9a5-1ef95438cd8e" group_id="6" sizeGridImage="">
     <available>true</available>
     <available city="0c5b2444-70a0-4932-980c-b4dc0d3f02b5">false<available>
@@ -115,7 +119,7 @@
 
 Чтобы показать кешбек в зависимости от `priceTier` пользователя, необходимо передать тек `cashback` внутри `offer`:
 
-```markup
+```xml
 <cashback>100</cashback>
 <cashback priceTier="silver">110</cashback>
 <cashback priceTier="gold">120</cashback>

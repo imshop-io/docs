@@ -1,3 +1,7 @@
+---
+icon: circle
+---
+
 # One Signal
 
 ### Главная страница

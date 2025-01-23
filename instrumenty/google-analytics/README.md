@@ -1,2 +1,6 @@
+---
+icon: google
+---
+
 # Google Analytics
 

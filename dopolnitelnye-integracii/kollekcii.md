@@ -1,3 +1,7 @@
+---
+icon: chart-tree-map
+---
+
 # Коллекции
 
 {% hint style="danger" %}
@@ -12,23 +16,7 @@ IMSHOP Retail Protocol создан по заказу ООО «АЙ ЭМ СОЛ�
 Обратитесь к вашему product-менеджеру для подключения интеграций.
 {% endhint %}
 
-<div>
-
-<figure><img src="../.gitbook/assets/spaces%2F-LyuKQBzspCEs8chxsQd%2Fuploads%2FvxdYug7bBvfLweEXqXIi%2FSimulator%20Screen%20Shot%20-%20iPhone%2013%20Pro%20-%202022-10-04%20at%2015.webp" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/spaces%2F-LyuKQBzspCEs8chxsQd%2Fuploads%2F2XHeBUJQkTlUNuPFctpH%2FSimulator%20Screen%20Shot%20-%20iPhone%2013%20Pro%20-%202022-10-04%20at%2015 (1).webp" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/spaces%2F-LyuKQBzspCEs8chxsQd%2Fuploads%2FxttUy1dUgWZD6Dxqw3m0%2FSimulator%20Screen%20Shot%20-%20iPhone%2013%20Pro%20-%202022-10-04%20at%2015.webp" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/spaces%2F-LyuKQBzspCEs8chxsQd%2Fuploads%2FR1GdPhsz0qZuZjaC8Wgc%2FSimulator%20Screen%20Shot%20-%20iPhone%2013%20Pro%20-%202022-10-04%20at%2015.webp" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/spaces%2F-LyuKQBzspCEs8chxsQd%2Fuploads%2FvxdYug7bBvfLweEXqXIi%2FSimulator%20Screen%20Shot%20-%20iPhone%2013%20Pro%20-%202022-10-04%20at%2015.webp" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/spaces%2F-LyuKQBzspCEs8chxsQd%2Fuploads%2F2XHeBUJQkTlUNuPFctpH%2FSimulator%20Screen%20Shot%20-%20iPhone%2013%20Pro%20-%202022-10-04%20at%2015 (1).webp" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/spaces%2F-LyuKQBzspCEs8chxsQd%2Fuploads%2FxttUy1dUgWZD6Dxqw3m0%2FSimulator%20Screen%20Shot%20-%20iPhone%2013%20Pro%20-%202022-10-04%20at%2015.webp" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/spaces%2F-LyuKQBzspCEs8chxsQd%2Fuploads%2FR1GdPhsz0qZuZjaC8Wgc%2FSimulator%20Screen%20Shot%20-%20iPhone%2013%20Pro%20-%202022-10-04%20at%2015.webp" alt=""><figcaption></figcaption></figure></div>
 
 ### Получение коллекций через webhook-интеграцию
 

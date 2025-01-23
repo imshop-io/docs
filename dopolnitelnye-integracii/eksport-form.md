@@ -1,3 +1,7 @@
+---
+icon: square-arrow-right
+---
+
 # Экспорт форм
 
 {% hint style="danger" %}

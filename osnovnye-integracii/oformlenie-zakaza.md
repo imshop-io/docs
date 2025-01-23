@@ -1,3 +1,7 @@
+---
+icon: cart-circle-arrow-up
+---
+
 # Оформление заказа
 
 {% hint style="danger" %}

@@ -1,10 +1,14 @@
+---
+icon: magnifying-glass-waveform
+---
+
 # YML фид для ElasticSearch
 
 ## Описание дополнений формата от IMSHOP.IO и примеры
 
 ### Общая структура фида (пример)
 
-```markup
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <yml_catalog date="2017-02-05 17:22">
   <shop>
@@ -200,7 +204,7 @@
 
 ### **Синонимы (поиск по ключевым словам, которых нет в названии/модели оффера):**
 
-```markup
+```xml
 <offers>
   <offer id="61b06345-c404-11e0-ad14-3c4a926c6ba4" available="true">
     ...

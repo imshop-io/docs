@@ -1,3 +1,7 @@
+---
+icon: credit-card
+---
+
 # Оплаты
 
 {% hint style="danger" %}

@@ -1,3 +1,7 @@
+---
+icon: link
+---
+
 # Реферальная программа
 
 ![](<../../.gitbook/assets/Screenshot 2022-10-14 at 12.22.14.png>)
