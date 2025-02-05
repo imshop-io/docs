@@ -70,6 +70,7 @@
       * [Удаление пользовательских данных](dopolnitelnye-integracii/profil/uchyotnaya-zapis-polzovatelya.-avtorizaciya./udalenie-polzovatelskikh-dannykh.md)
       * [Подписка/отписка на рассылки](dopolnitelnye-integracii/profil/uchyotnaya-zapis-polzovatelya.-avtorizaciya./podpiska-otpiska-na-rassylki.md)
     * [История заказов](dopolnitelnye-integracii/profil/istoriya-zakazov.md)
+    * [Купленные товары](dopolnitelnye-integracii/profil/kuplennye-tovary.md)
     * [Оценка качества обслуживания](dopolnitelnye-integracii/profil/ocenka-kachestva-obsluzhivaniya.md)
     * [Отправка уведомлений пользователям](dopolnitelnye-integracii/profil/otpravka-uvedomlenii-polzovatelyam.md)
     * [История уведомлений](dopolnitelnye-integracii/profil/istoriya-uvedomlenii.md)
