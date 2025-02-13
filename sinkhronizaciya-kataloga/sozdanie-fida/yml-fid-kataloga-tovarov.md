@@ -189,6 +189,7 @@ icon: file-xml
 <param name="Материал подошвы">Каучук</param>
 <param name="Материал верха">Кожа</param>
 <param name="Обложка" noFilter="true">Мягкая</param>
+<othercolors>8480,3226,3144,3139,3183,3201,3213,3200,3223,3212</othercolors>
 <description>Прекрасные ботинки известного бренда</description>
 <googleProductCategory>Apparel &amp; Accessories > Clothing > Shirts &amp; Tops</googleProductCategory>
 <rec title="Похожие товары">213741,1899435,1630074</rec>
